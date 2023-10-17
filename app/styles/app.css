@@ -1,1 +1,72 @@
-/* Ember supports plain CSS out of the box. More info: https://cli.emberjs.com/release/advanced-use/stylesheets/ */
+:root {
+  --primary-color: #023a4f;
+  --secondary-color: #fdc32d;
+  --success-color: #bbdfb2;
+  --success-color-dark: #006853;
+}
+
+nav {
+  height: 60px;
+  background-color: var(--primary-color);
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+}
+
+nav > a {
+  color: white;
+  font-size: 2em;
+  text-decoration: none;
+}
+
+nav > a.active {
+  color: var(--secondary-color);
+}
+
+.container {
+  padding: 20px;
+}
+
+.bingo-card {
+  display: grid;
+  grid-template-columns: 120px 120px 120px 120px 120px;
+  grid-template-rows: 120px 120px 120px 120px 120px;
+  gap: 10px;
+}
+
+.bingo-container {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 20px;
+}
+
+button {
+  background-color: #fff0db;
+  border: none;
+  border-radius: 8px;
+}
+
+button.selected {
+  border: 2px solid var(--secondary-color);
+}
+
+.definition-container {
+  display: grid;
+  grid-template-columns: 200px 80ch;
+  gap: 20px;
+}
+
+.search {
+  margin-bottom: 20px;
+}
+
+.definition {
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+.completed {
+  background-color: var(--success-color);
+  border: 2px solid var(--success-color-dark);
+}

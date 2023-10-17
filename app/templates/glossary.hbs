@@ -1,0 +1,12 @@
+{{page-title "Glossary"}}
+<div class="search">
+  <label>
+    <span>Search:</span>
+    <Input @value={{this.query}} class="light" />
+  </label>
+</div>
+<div class="definition-container">
+  {{#each this.results as |item|}}
+    <span class="definition">{{item.title}}</span><span class="explanation">{{item.definition}}</span>
+  {{/each}}
+</div>

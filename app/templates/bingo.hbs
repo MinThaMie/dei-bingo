@@ -1,0 +1,16 @@
+{{page-title "Bingo"}}
+<p>Click a square to get more information about it, and press and hold to complete it!</p>
+<div class="bingo-container">
+  <div class="bingo-card">
+    {{#each this.squares as |item| }}
+      {{!-- template-lint-disable no-pointer-down-event-binding --}}
+      <button type="button" class="{{if (eq item this.selected) 'selected'}} {{if item.completed 'completed'}}" {{on 'click' (fn this.selectSquare item)}} {{on "pointerdown" (perform this.completeSquare item)}}
+  {{on "pointerup" (cancel-all this.completeSquare)}}
+  {{on "pointerleave" (cancel-all this.completeSquare)}}>{{item.title}}</button>
+    {{/each}}
+  </div>
+  <div class="information">
+    {{this.completed}}
+    <p>{{this.selected.description}}</p>
+  </div>
+</div>
