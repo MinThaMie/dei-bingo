@@ -52,18 +52,23 @@ button.selected {
 }
 
 .definition-container {
-  display: grid;
-  grid-template-columns: 200px 80ch;
-  gap: 20px;
 }
 
 .search {
   margin-bottom: 20px;
 }
 
-.definition {
+.row {
+  margin-bottom: 20px;
+}
+
+.title {
   font-weight: bold;
   color: var(--primary-color);
+}
+
+.definition {
+  max-width: 80ch;
 }
 
 .completed {
