@@ -16,7 +16,7 @@ nav {
 
 nav > a {
   color: white;
-  font-size: 2em;
+  font-size: 1.5em;
   text-decoration: none;
 }
 
@@ -74,4 +74,47 @@ button.selected {
 .completed {
   background-color: var(--success-color);
   border: 2px solid var(--success-color-dark);
+}
+
+.resource-list {
+  padding: 0;
+}
+
+.resource-list > li {
+  list-style: none;
+  margin-bottom: 8px;
+}
+
+.resource-list > li > a {
+  width: max-content;
+  display: flex;
+  align-items: center;
+  color: black;
+}
+
+.resource-list > li > a > svg {
+  font-size: 1.5em;
+  margin-right: 8px;
+}
+
+.resource-list > li > a:hover > svg {
+  animation: 3s infinite rainbow;
+}
+
+@keyframes rainbow {
+  0% {
+    color: red;
+  }
+  25% {
+    color: orange;
+  }
+  50% {
+    color: green;
+  }
+  75% {
+    color: blue;
+  }
+  100% {
+    color: purple;
+  }
 }

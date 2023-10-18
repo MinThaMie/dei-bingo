@@ -7,6 +7,7 @@
 </div>
 <div class="definition-container">
   {{#each this.results as |item|}}
-    <div class="row"><p class="title">{{item.title}}</p><p class="definition">{{item.definition}}</p></div>
+    {{!-- template-lint-disable no-triple-curlies --}}
+    <div class="row"><a href="#{{item.title}}" id={{item.title}} class="title">{{item.title}}</a><p class="definition">{{{item.definition}}}</p></div>
   {{/each}}
 </div>

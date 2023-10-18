@@ -21,7 +21,7 @@ export default class GlossaryRoute extends Route {
       {
         title: 'Cisgender',
         definition:
-          'A term used to describe a person whose gender identity corresponds to their sex assigned at birth. Often shortened to cis.',
+          'A term used to describe a person whose <a href="#Gender Identity">gender identity</a> corresponds to their sex assigned at birth. Often shortened to cis.',
       },
       {
         title: 'Culture',
@@ -36,7 +36,7 @@ export default class GlossaryRoute extends Route {
       {
         title: 'Discrimination',
         definition:
-          'Unfavorable or unfair treatment towards people based on the groups, classes, or other categories to which they belong or are perceived to belong. Some examples are their ethnicity, color, religion, socioeconomic status, education, sex, marital status, political affiliation, language, age, gender, physical or mental abilities, sexual orientation or gender identity.',
+          'Unfavorable or unfair treatment towards people based on the groups, classes, or other categories to which they belong or are perceived to belong. Some examples are their ethnicity, color, religion, socioeconomic status, education, sex, marital status, political affiliation, language, age, gender, physical or mental abilities, sexual orientation or <a href="#Gender Identity">gender identity</a>.',
       },
       {
         title: 'Diversity',
@@ -71,7 +71,7 @@ export default class GlossaryRoute extends Route {
       {
         title: 'Gender Expression',
         definition:
-          'A term to describe how people externally communicate or perform their gender identity to others.',
+          'A term to describe how people externally communicate or perform their <a href="#Gender Identity">gender identity</a> to others.',
       },
       {
         title: 'Gender Identity',
@@ -81,12 +81,12 @@ export default class GlossaryRoute extends Route {
       {
         title: 'Gender-Neutral',
         definition:
-          'Used to denote a unisex or all-gender inclusive space, language, etc. For example: a gender-neutral bathroom is a bathroom open to people of any gender identity and expression.',
+          'Used to denote a unisex or all-gender inclusive space, language, etc. For example: a gender-neutral bathroom is a bathroom open to people of any <a href="#Gender Identity">gender identity</a> and expression.',
       },
       {
         title: 'Gender Expansive (gender non-confirming)',
         definition:
-          'Used to describe those who view their gender identity as one of many possible genders beyond strictly man or woman. These individuals have expanded notions of gender expression and identity beyond what is perceived as the expected gender norms for their society or context. Some gender-expansive individuals identify as a man or a woman, some identify as neither, and others identify as a mix of both.',
+          'Used to describe those who view their <a href="#Gender Identity">gender identity</a> as one of many possible genders beyond strictly man or woman. These individuals have expanded notions of gender expression and identity beyond what is perceived as the expected gender norms for their society or context. Some gender-expansive individuals identify as a man or a woman, some identify as neither, and others identify as a mix of both.',
       },
       {
         title: 'Implicit Bias',
@@ -151,7 +151,7 @@ export default class GlossaryRoute extends Route {
       {
         title: 'Privilege',
         definition:
-          'Unearned social power granted by the formal and informal institutions of society to all members of a dominant group (e.g. white privilege, male privilege, etc.). Privilege is usually invisible to those who have it but nevertheless it puts them at an advantage over those who do not have it. Individuals can be privileged in one area, but not in another.',
+          'Unearned social power granted by the formal and informal institutions of society to all members of a dominant group (e.g. <a href="#White Privilege">white privilege</a>, male privilege, etc.). Privilege is usually invisible to those who have it but nevertheless it puts them at an advantage over those who do not have it. Individuals can be privileged in one area, but not in another.',
       },
       {
         title: 'Psychological Safety',
@@ -161,7 +161,7 @@ export default class GlossaryRoute extends Route {
       {
         title: 'Queer',
         definition:
-          'An umbrella term for people who are not heterosexual or are not cisgender.',
+          'An umbrella term for people who are not heterosexual or are not <a href="#Cisgender">cisgender</a>.',
       },
       {
         title: 'Race',
@@ -181,7 +181,7 @@ export default class GlossaryRoute extends Route {
       {
         title: 'Transgender',
         definition:
-          'Someone whose gender identity differs from that typically associated with the sex they were assigned at birth. Transgender does not imply any form of sexual orientation. Often shortened to trans.',
+          'Someone whose <a href="#Gender Identity">gender identity</a> differs from that typically associated with the sex they were assigned at birth. Transgender does not imply any form of sexual orientation. Often shortened to trans.',
       },
       {
         title: 'White Privilege',
