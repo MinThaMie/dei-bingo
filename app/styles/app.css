@@ -29,10 +29,23 @@ nav > a.active {
 }
 
 .bingo-card {
-  display: grid;
+  /* display: grid;
   grid-template-columns: 120px 120px 120px 120px 120px;
   grid-template-rows: 120px 120px 120px 120px 120px;
-  gap: 10px;
+  gap: 10px; */
+  display: flex;
+  flex-wrap: wrap;
+  max-height: 100vh;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.cell {
+  max-width: 250px;
+}
+
+.title {
+  font-size: 1.5em;
 }
 
 .bingo-container {
@@ -43,7 +56,7 @@ nav > a.active {
 
 button {
   background-color: #fff0db;
-  border: none;
+  border: 2px solid #fff0db;
   border-radius: 8px;
 }
 
@@ -69,6 +82,7 @@ button.selected {
 
 .definition {
   max-width: 80ch;
+  padding-left: 20px;
 }
 
 .completed {
