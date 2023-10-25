@@ -1,12 +1,12 @@
-{{page-title "Bingo"}}
+{{page-title "Bucketlist"}}
+<dialog>
+  <p id="modal-description"></p>
+  <button type="button" class="button" {{on 'click' this.hideModal}}>Close</button>
+  <button type="button" class="button complete" {{on 'click' this.completeSquare}}>Complete</button>
+</dialog>
 <p>Click a square to get more information about it, and press and hold to complete it!</p>
-<div class="bingo-container">
-  <div class="bingo-card">
-    {{#each this.squares as |item| }}
-      {{!-- template-lint-disable no-pointer-down-event-binding --}}
-      <button type="button" class="cell {{if (eq item this.selected) 'selected'}} {{if item.completed 'completed'}}" {{on 'click' (fn this.selectSquare item)}} {{on "pointerdown" (perform this.completeSquare item)}}
-  {{on "pointerup" (cancel-all this.completeSquare)}}
-  {{on "pointerleave" (cancel-all this.completeSquare)}}><FaIcon @icon="book" /><br><p class="title">{{item.title}}</p>{{item.description}}</button>
-    {{/each}}
-  </div>
+<div class="bingo-card">
+  {{#each this.squares as |item| }}
+    <button type="button" class="cell {{if item.completed 'completed'}}" {{on 'click' (fn this.selectSquare item)}}><FaIcon @icon={{item.icon}} /><br><p class="title">{{item.title}}</p>{{item.description}}</button>
+  {{/each}}
 </div>
