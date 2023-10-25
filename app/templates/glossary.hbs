@@ -1,8 +1,14 @@
 {{page-title "Glossary"}}
+<div class="callout">
+  <h2>Find the</h2>
+  <h1 class="callout-focus">Definition</h1>
+</div>
 <div class="search">
   <label>
-    <span>Search:</span>
-    <Input @value={{this.query}} class="light" />
+    <div class="search-bar">
+      <FaIcon class="search-icon" @icon='search' />
+      <Input @value={{this.query}} class="search-input light"  placeholder="Type here to filter the glossary"/>
+    </div>
   </label>
 </div>
 <div class="definition-container">

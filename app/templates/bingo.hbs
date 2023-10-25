@@ -4,7 +4,10 @@
   <button type="button" class="button" {{on 'click' this.hideModal}}>Close</button>
   <button type="button" class="button complete" {{on 'click' this.completeSquare}}>Complete</button>
 </dialog>
-<p>Click a square to get more information about it, and press and hold to complete it!</p>
+<div class="callout">
+  <h2>How to</h2>
+  <h1 class="callout-focus">Contribute</h1>
+</div>
 <div class="bingo-card">
   {{#each this.squares as |item| }}
     <button type="button" class="cell {{if item.completed 'completed'}}" {{on 'click' (fn this.selectSquare item)}}><FaIcon @icon={{item.icon}} /><br><p class="title">{{item.title}}</p>{{item.description}}</button>

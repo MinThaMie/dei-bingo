@@ -42,17 +42,33 @@ nav > a.active {
 
 .index-container > h2 {
   margin: 0;
-  font-size: 62px;
+  font-size: 4em;
+  font-weight: normal;
 }
 
 .text {
   max-width: 60ch;
 }
 
-.callout {
-  font-size: 120px;
+.callout-focus {
+  font-size: 5em;
   color: var(--primary-color);
   margin: 0;
+  text-transform: uppercase;
+}
+
+.callout {
+  margin-bottom: 20px;
+}
+
+.callout > h2 {
+  margin: 0;
+  font-size: 2.5em;
+  font-weight: normal;
+}
+
+.callout.landing-callout > .callout-focus {
+  font-size: 7.5em;
 }
 
 .bingo-card {
@@ -61,29 +77,56 @@ nav > a.active {
   gap: 20px;
 }
 
-.bingo-card > .cell:nth-child(4n + 1) {
-  background-color: var(--blob-one);
-}
-.bingo-card > .cell:nth-child(4n + 2) {
-  background-color: var(--blob-two);
-}
-.bingo-card > .cell:nth-child(4n + 3) {
-  background-color: var(--blob-three);
-}
-.bingo-card > .cell:nth-child(4n + 4) {
-  background-color: var(--blob-four);
-}
-
 .cell {
   padding: 12px;
   flex: 1;
   background-color: #fff0db;
   border-radius: 8px;
   border: none;
+  cursor: pointer;
+}
+
+.cell:hover {
+  box-shadow: 5px 5px #fff0db;
+}
+
+.bingo-card > .cell:nth-child(4n + 1) {
+  background-color: var(--blob-one);
+}
+
+.bingo-card > .cell:nth-child(4n + 2) {
+  background-color: var(--blob-two);
+}
+
+.bingo-card > .cell:nth-child(4n + 3) {
+  background-color: var(--blob-three);
+}
+
+.bingo-card > .cell:nth-child(4n + 4) {
+  background-color: var(--blob-four);
 }
 
 .search {
   margin-bottom: 20px;
+}
+
+.search-bar {
+  position: relative;
+}
+
+.search-icon {
+  position: absolute;
+  top: 10px;
+  left: 16px;
+  color: var(--primary-color);
+}
+
+.search-input {
+  height: 35px;
+  border-radius: 30px;
+  border: 2px solid black;
+  width: min(100%, 80ch);
+  padding-left: 35px;
 }
 
 .row {
@@ -93,7 +136,12 @@ nav > a.active {
 .title {
   font-weight: bold;
   font-size: 1.5em;
-  margin: 8px;
+  margin: 8px 8px 8px 0;
+}
+
+.definition-container a,
+.definition-container a:visited {
+  color: var(--primary-color);
 }
 
 .definition {
@@ -153,6 +201,7 @@ dialog {
   margin-bottom: 8px;
 }
 
+/* stylelint-disable-next-line no-descending-specificity */
 .resource-list > li > a {
   width: max-content;
   display: flex;
@@ -173,15 +222,19 @@ dialog {
   0% {
     color: red;
   }
+
   25% {
     color: orange;
   }
+
   50% {
     color: green;
   }
+
   75% {
     color: blue;
   }
+
   100% {
     color: purple;
   }
