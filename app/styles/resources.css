@@ -1,0 +1,35 @@
+body.resources {
+  background-color: var(--background-color);
+}
+
+.resource-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.resource-card {
+  background-color: white;
+  border-radius: 12px;
+  width: 370px;
+  padding: 32px;
+}
+
+.resource-card > h3 {
+  color: black;
+  font-size: 1.5em;
+}
+
+.resource-list {
+  padding: 0;
+}
+
+.resource-list > li {
+  list-style: none;
+  margin-bottom: 8px;
+}
+
+.resource-list > li > a {
+  color: black;
+  text-decoration-color: var(--primary-color);
+}

@@ -3,6 +3,7 @@
   <h2>Find the</h2>
   <h1 class="callout-focus">Definition</h1>
 </div>
+<p class="intro">Not sure what some terms mean? No problem! In this overview you will find all terms that you may encounter within your organization</p>
 <div class="search">
   <label>
     <div class="search-bar">
@@ -14,6 +15,6 @@
 <div class="definition-container">
   {{#each this.results as |item|}}
     {{!-- template-lint-disable no-triple-curlies --}}
-    <div class="row"><a href="#{{item.title}}" id={{item.title}} class="title">{{item.title}}</a><p class="definition">{{{item.definition}}}</p></div>
+    <div class="row"><h3 class="glossary-title">{{item.title}}<a href="#{{item.title}}" id={{item.title}}><FaIcon @icon="link" class="link-icon"/></a></h3><p class="definition">{{{item.definition}}}</p></div>
   {{/each}}
 </div>

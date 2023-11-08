@@ -7,7 +7,11 @@ export default class BingoController extends Controller {
   dialog = document.querySelector('dialog');
 
   get squares() {
-    return this.model;
+    return this.model.filter((i) => !i.completed);
+  }
+
+  get roles() {
+    return this.model.filter((i) => i.completed);
   }
 
   @action

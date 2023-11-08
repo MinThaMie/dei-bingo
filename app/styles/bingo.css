@@ -1,0 +1,80 @@
+body.bingo {
+  background-color: var(--background-color);
+}
+
+.bingo-card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  max-width: 1080px;
+}
+
+.cell {
+  width: 200px;
+  height: 260px;
+  padding: 12px;
+  background-color: white;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+}
+
+.cell:hover {
+  box-shadow: 5px 5px #fff0db;
+}
+
+.title {
+  font-family: "PT Serif", serif;
+  font-size: 1.25em;
+  margin: 8px 8px 8px 0;
+}
+
+dialog {
+  width: 625px;
+  border: 0;
+  border-radius: 12px;
+  height: 50vh;
+  text-align: center;
+}
+
+.button {
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  padding: 16px 32px;
+  color: white;
+  background-color: var(--primary-color);
+  width: max-content;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.button-secondary {
+  background-color: var(--secondary-color);
+}
+
+.button:hover {
+  background-color: var(--primary-hover-color);
+}
+
+.button-secondary:hover {
+  background-color: var(--secondary-hover-color);
+}
+
+/* .bingo-card > .cell:nth-child(4n + 1) {
+  background-color: var(--blob-one);
+}
+
+.bingo-card > .cell:nth-child(4n + 2) {
+  background-color: var(--blob-two);
+}
+
+.bingo-card > .cell:nth-child(4n + 3) {
+  background-color: var(--blob-three);
+}
+
+.bingo-card > .cell:nth-child(4n + 4) {
+  background-color: var(--blob-four);
+} */

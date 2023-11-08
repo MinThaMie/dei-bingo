@@ -1,0 +1,52 @@
+.search {
+  margin: 40px 0 20px;
+}
+
+.search-bar {
+  position: relative;
+  width: 340px;
+}
+
+.search-icon {
+  position: absolute;
+  top: 10px;
+  left: 6px;
+  color: black;
+}
+
+.search-input {
+  height: 35px;
+  border: none;
+  border-bottom: 1px solid var(--primary-color);
+  width: 100%;
+  padding-left: 35px;
+}
+
+.row {
+  margin-bottom: 20px;
+}
+
+.glossary-title {
+  font-family: "Inter", sans-serif;
+  color: black;
+  font-size: 1em;
+}
+
+.link-icon {
+  rotate: 45deg;
+  margin-left: 8px;
+}
+
+.definition-container a,
+.definition-container a:visited {
+  color: var(--primary-color);
+}
+
+.definition-container a:hover {
+  color: var(--primary-hover-color);
+}
+
+.definition {
+  max-width: 80ch;
+  padding-left: 20px;
+}

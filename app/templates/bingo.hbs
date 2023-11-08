@@ -1,13 +1,23 @@
-{{page-title "Bucketlist"}}
+{{page-title "Contribute"}}
 <dialog>
   <p id="modal-description"></p>
-  <button type="button" class="button" {{on 'click' this.hideModal}}>Close</button>
-  <button type="button" class="button complete" {{on 'click' this.completeSquare}}>Complete</button>
+  <button type="button" class="button button-secondary" {{on 'click' this.hideModal}}>I'll come back</button>
+  <button type="button" class="button" {{on 'click' this.completeSquare}}>Add to my roles</button>
 </dialog>
 <div class="callout">
   <h2>How to</h2>
   <h1 class="callout-focus">Contribute</h1>
 </div>
+<p class="intro">Below you can explore different ways to contribute to diversity and inclusion at your organisation. If you find a role that suits you, you can add it to ‘my roles’.</p>
+
+<h3>My Roles</h3>
+<div class="bingo-card">
+  {{#each this.roles as |item|}}
+    <button type="button" class="cell {{if item.completed 'completed'}}" {{on 'click' (fn this.selectSquare item)}}><FaIcon @icon={{item.icon}} /><br><p class="title">{{item.title}}</p>{{item.description}}</button>
+  {{/each}}
+</div>
+
+<h3>Different ways to contribute</h3>
 <div class="bingo-card">
   {{#each this.squares as |item| }}
     <button type="button" class="cell {{if item.completed 'completed'}}" {{on 'click' (fn this.selectSquare item)}}><FaIcon @icon={{item.icon}} /><br><p class="title">{{item.title}}</p>{{item.description}}</button>
