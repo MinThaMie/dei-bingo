@@ -13,13 +13,16 @@
 <h3>My Roles</h3>
 <div class="bingo-card">
   {{#each this.roles as |item|}}
-    <button type="button" class="cell {{if item.completed 'completed'}}" {{on 'click' (fn this.selectSquare item)}}><FaIcon @icon={{item.icon}} /><br><p class="title">{{item.title}}</p>{{item.description}}</button>
+    <button type="button" style={{blobcolor item.title}} class="cell {{if item.completed 'completed'}}" {{on 'click' (fn this.selectSquare item)}}>
+      {{svg-jar item.icon}}
+      <br><p class="title">{{item.title}}</p>{{item.description}}</button>
   {{/each}}
 </div>
 
 <h3>Different ways to contribute</h3>
 <div class="bingo-card">
   {{#each this.squares as |item| }}
-    <button type="button" class="cell {{if item.completed 'completed'}}" {{on 'click' (fn this.selectSquare item)}}><FaIcon @icon={{item.icon}} /><br><p class="title">{{item.title}}</p>{{item.description}}</button>
+    <button type="button"  style={{blobcolor item.title}}  class="cell {{if item.completed 'completed'}}" {{on 'click' (fn this.selectSquare item)}}>      {{svg-jar item.icon}}
+<br><p class="title">{{item.title}}</p>{{item.description}}</button>
   {{/each}}
 </div>

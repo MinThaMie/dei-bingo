@@ -20,7 +20,15 @@ body.bingo {
 }
 
 .cell:hover {
-  box-shadow: 5px 5px #fff0db;
+  border: 1px solid var(--blob-color);
+}
+
+.cell > svg {
+  height: 90px;
+}
+
+.cell > svg:first-child {
+  fill: var(--blob-color);
 }
 
 .title {
