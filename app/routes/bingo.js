@@ -1,7 +1,13 @@
 import Route from '@ember/routing/route';
 import { tracked } from 'tracked-built-ins';
 
-const completedCells = JSON.parse(localStorage.getItem('completed')) ?? [];
+let completedCells = [];
+
+try {
+  completedCells = JSON.parse(localStorage.getItem('completed')) ?? [];
+} catch (e) {
+  localStorage.setItem('completed', []);
+}
 
 const cells = [
   {
