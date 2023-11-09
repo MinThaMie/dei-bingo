@@ -1,16 +1,15 @@
 /* stylelint-disable import-notation */
-@import "index.css";
 @import "bingo.css";
 @import "glossary.css";
 @import "resources.css";
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=PT+Serif:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=PT+Serif:wght@700&display=swap");
 
 :root {
   --primary-color: #3345ff;
   --secondary-color: #fcbaa2;
-  --primary-hover-color: #0317E4;
-  --secondary-hover-color: #F4A78B;
-  --background-color: #FFF6EF;
+  --primary-hover-color: #0317e4;
+  --secondary-hover-color: #f4a78b;
+  --background-color: #fff6ef;
 }
 
 body {
@@ -31,6 +30,14 @@ p.intro {
   width: 50ch;
 }
 
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 120px;
+  margin-top: 38px;
+}
+
 nav {
   height: 60px;
   display: flex;
@@ -49,10 +56,12 @@ nav > a {
 nav > a.active {
   color: var(--primary-color);
   text-decoration: underline;
+  text-underline-offset: 8px;
+  text-decoration-thickness: 2px;
 }
 
 .container {
-  padding: 20px;
+  padding: 94px 0 120px 120px;
 }
 
 .text {
@@ -82,4 +91,9 @@ nav > a.active {
 
 .callout.landing-callout > h2 {
   font-size: 2em;
+}
+
+.button-index {
+  margin-top: 80px;
+  font-size: 1.125em;
 }
