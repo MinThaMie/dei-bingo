@@ -2,7 +2,7 @@ import Route from '@ember/routing/route';
 
 export default class GlossaryRoute extends Route {
   model() {
-    return [
+    const glossary = [
       {
         title: 'Ableism',
         definition:
@@ -189,5 +189,14 @@ export default class GlossaryRoute extends Route {
           'Refers to the unquestioned and unearned set of advantages, entitlements, benefits and choices bestowed on people solely because they are "white", particularly if they are otherwise under the same social, political, or economic circumstances.',
       },
     ];
+    const caps = [];
+    return glossary.map((e) => {
+      if (caps.includes(e.title[0])) {
+        return { ...e, caps: '' };
+      } else {
+        caps.push(e.title[0]);
+        return { ...e, caps: e.title[0] };
+      }
+    });
   }
 }

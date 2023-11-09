@@ -24,12 +24,22 @@
 
 .row {
   margin-bottom: 20px;
+  display: grid;
+  grid-template-columns: 32px 80ch;
+  gap: 16px;
+}
+
+.caps {
+  font-family: 'PT serif', serif;
+  font-size: 2em;
+  color: var(--primary-color);
 }
 
 .glossary-title {
-  font-family: "Inter", sans-serif;
+  font-family: Inter, sans-serif;
   color: black;
   font-size: 1em;
+  margin-top: 0;
 }
 
 .link-icon {
@@ -44,9 +54,4 @@
 
 .definition-container a:hover {
   color: var(--primary-hover-color);
-}
-
-.definition {
-  max-width: 80ch;
-  padding-left: 20px;
 }

@@ -15,6 +15,6 @@
 <div class="definition-container">
   {{#each this.results as |item|}}
     {{!-- template-lint-disable no-triple-curlies --}}
-    <div class="row"><h3 class="glossary-title">{{item.title}}<a href="#{{item.title}}" id={{item.title}}><FaIcon @icon="link" class="link-icon"/></a></h3><p class="definition">{{{item.definition}}}</p></div>
+    <div class="row"><div class="caps">{{item.caps}}</div><div><h3 class="glossary-title">{{item.title}}<a href="#{{item.title}}" id={{item.title}}><FaIcon @icon="link" class="link-icon"/></a></h3><p class="definition">{{{item.definition}}}</p></div></div>
   {{/each}}
 </div>
