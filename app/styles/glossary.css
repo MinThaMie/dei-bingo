@@ -55,3 +55,9 @@
 .definition-container a:hover {
   color: var(--primary-hover-color);
 }
+
+@media (width <= 840px) {
+  .row {
+    grid-template-columns: 32px 1fr;
+  }
+}

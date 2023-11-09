@@ -1,14 +1,38 @@
 {{page-title "DEI Bingo"}}
+
+{{#if (media 'isDesktop')}}
 <div class="navbar">
   <img src="logo.svg" alt="4 abstract people">
-<nav>
-  <LinkTo @route="index">Home</LinkTo>
-  <LinkTo @route="bingo">Contribute</LinkTo>
-  <LinkTo @route="glossary">Glossary</LinkTo>
-  <LinkTo @route="resources">Resources</LinkTo>
-</nav>
+  <nav>
+    <LinkTo @route="index">Home</LinkTo>
+    <LinkTo @route="bingo">Contribute</LinkTo>
+    <LinkTo @route="glossary">Glossary</LinkTo>
+    <LinkTo @route="resources">Resources</LinkTo>
+  </nav>
 </div>
-
 <div class="container">
-{{outlet}}
+  {{outlet}}
 </div>
+{{else}}
+<MobileMenuWrapper as |mmw|>
+  <mmw.MobileMenu as |mm|>
+    <div class="menu mobile">
+      {{!-- template-lint-disable no-duplicate-landmark-elements --}}
+      <nav>
+        <mm.LinkTo @route="index">Home</mm.LinkTo>
+        <mm.LinkTo @route="bingo">Contribute</mm.LinkTo>
+        <mm.LinkTo @route="glossary">Glossary</mm.LinkTo>
+        <mm.LinkTo @route="resources">Resources</mm.LinkTo>
+      </nav>
+    </div>
+  </mmw.MobileMenu>
+
+  <mmw.Content class="mobile-container">
+    <mmw.Toggle class="button button-inverted">
+      Menu
+    </mmw.Toggle>
+    {{outlet}}
+  </mmw.Content>
+</MobileMenuWrapper>
+{{/if}}
+
