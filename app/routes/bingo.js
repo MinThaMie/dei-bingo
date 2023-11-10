@@ -23,7 +23,7 @@ const cells = [
     explanation: '',
   },
   {
-    icon: 'together',
+    icon: 'advocate',
     title: 'Advocate',
     description:
       'I encourage fellow persons of privilege to become active allies',
@@ -42,7 +42,7 @@ const cells = [
     explanation: '',
   },
   {
-    icon: 'handshake-angle',
+    icon: 'volunteer',
     title: 'Volunteer',
     description: 'Volunteer for a D&I initiative.',
     explanation: '',
@@ -104,14 +104,14 @@ const cells = [
     explanation: '',
   },
   {
-    icon: 'receipt',
+    icon: 'accountant',
     title: 'Accountant',
     description:
       'I hold my managers accountable for implementing and spearheading our D&I story',
     explanation: '',
   },
   {
-    icon: 'together',
+    icon: 'mentor',
     title: 'Mentor',
     description: 'I mentor somebody from an underrepresented group',
     explanation: '',
@@ -150,7 +150,7 @@ const cells = [
     explanation: '',
   },
   {
-    icon: 'ticket',
+    icon: 'joiner',
     title: 'Joiner',
     description: 'I attend D&I community events',
     explanation: '',
