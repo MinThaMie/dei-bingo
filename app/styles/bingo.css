@@ -15,20 +15,8 @@ body.bingo {
   padding: 12px;
   background-color: white;
   border-radius: 12px;
-  border: none;
   cursor: pointer;
-}
-
-.cell:hover {
-  border: 1px solid var(--blob-color);
-}
-
-.cell > svg {
-  height: 90px;
-}
-
-.cell > svg:first-child {
-  fill: var(--blob-color);
+  border: 1px solid transparent;
 }
 
 .title {
@@ -38,11 +26,42 @@ body.bingo {
 }
 
 dialog {
+  position: relative;
   width: 625px;
   border: 0;
   border-radius: 12px;
-  height: 50vh;
   text-align: center;
+  padding: 64px;
+}
+
+dialog > .illustration {
+  height: 140px;
+}
+
+.cell:hover {
+  border: 1px solid var(--blob-color);
+}
+
+.cell > .illustration {
+  height: 90px;
+}
+
+.illustration:first-child {
+  fill: var(--blob-color);
+}
+
+.modal-close {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 1.3em;
+}
+
+.modal-description {
+  margin-bottom: 84px;
 }
 
 .button {
@@ -70,19 +89,3 @@ dialog {
 .button-secondary:hover {
   background-color: var(--secondary-hover-color);
 }
-
-/* .bingo-card > .cell:nth-child(4n + 1) {
-  background-color: var(--blob-one);
-}
-
-.bingo-card > .cell:nth-child(4n + 2) {
-  background-color: var(--blob-two);
-}
-
-.bingo-card > .cell:nth-child(4n + 3) {
-  background-color: var(--blob-three);
-}
-
-.bingo-card > .cell:nth-child(4n + 4) {
-  background-color: var(--blob-four);
-} */

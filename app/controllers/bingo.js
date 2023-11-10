@@ -3,7 +3,7 @@ import { tracked } from '@glimmer/tracking';
 import { action } from '@ember/object';
 
 export default class BingoController extends Controller {
-  @tracked selected = null;
+  @tracked selected = { title: '', icon: '' };
   dialog = document.querySelector('dialog');
 
   get squares() {
@@ -21,14 +21,7 @@ export default class BingoController extends Controller {
     } else {
       this.selected = cell;
     }
-    document.querySelector('#modal-description').textContent =
-      this.selected.description;
     document.querySelector('dialog').showModal();
-    if (this.selected.completed) {
-      document.querySelector('.button.complete').style.display = 'none';
-    } else {
-      document.querySelector('.button.complete').style.display = 'unset';
-    }
   }
 
   @action

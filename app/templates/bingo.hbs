@@ -1,8 +1,12 @@
 {{page-title "Contribute"}}
-<dialog>
-  <p id="modal-description"></p>
+<dialog style={{blobcolor this.selected.title}}>
+  <button type="button" class="modal-close" {{on 'click' this.hideModal}}><FaIcon @icon='close'/></button>
+  {{svg-jar this.selected.icon class='illustration'}}
+  <p class="modal-description">{{this.selected.description}}</p>
   <button type="button" class="button button-secondary" {{on 'click' this.hideModal}}>I'll come back</button>
-  <button type="button" class="button complete" {{on 'click' this.completeSquare}}>Add to my roles</button>
+  {{#unless this.selected.completed}}
+    <button type="button" class="button complete" {{on 'click' this.completeSquare}}>Add to my roles</button>
+  {{/unless}}
 </dialog>
 <div class="callout">
   <h2>How to</h2>
@@ -14,7 +18,7 @@
 <div class="bingo-card">
   {{#each this.roles as |item|}}
     <button type="button" style={{blobcolor item.title}} class="cell {{if item.completed 'completed'}}" {{on 'click' (fn this.selectSquare item)}}>
-      {{svg-jar item.icon}}
+      {{svg-jar item.icon class='illustration'}}
       <br><p class="title">{{item.title}}</p>{{item.description}}</button>
   {{/each}}
 </div>
@@ -22,7 +26,7 @@
 <h3>Different ways to contribute</h3>
 <div class="bingo-card">
   {{#each this.squares as |item| }}
-    <button type="button"  style={{blobcolor item.title}}  class="cell {{if item.completed 'completed'}}" {{on 'click' (fn this.selectSquare item)}}>      {{svg-jar item.icon}}
+    <button type="button"  style={{blobcolor item.title}}  class="cell {{if item.completed 'completed'}}" {{on 'click' (fn this.selectSquare item)}}>      {{svg-jar item.icon class='illustration'}}
 <br><p class="title">{{item.title}}</p>{{item.description}}</button>
   {{/each}}
 </div>
