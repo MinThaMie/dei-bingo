@@ -33,6 +33,7 @@ body.bingo {
   border-radius: 12px;
   text-align: center;
   padding: 64px;
+  margin: 20px;
 }
 
 .illustration {
@@ -95,4 +96,10 @@ body.bingo {
 
 .button-secondary:hover {
   background-color: var(--secondary-hover-color);
+}
+
+@media (width <= 665px) {
+  .contribute-modal {
+    width: calc(100vw - 40px);
+  }
 }

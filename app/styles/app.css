@@ -61,6 +61,11 @@ nav > a.active {
   text-decoration-thickness: 2px;
 }
 
+.mobile-menu-wrapper {
+  z-index: 0;
+  position: relative;
+}
+
 /* stylelint-disable-next-line selector-class-pattern */
 .mobile-menu__toggle {
   margin-bottom: 20px;
