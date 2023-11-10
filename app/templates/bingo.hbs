@@ -1,13 +1,4 @@
 {{page-title "Contribute"}}
-<dialog style={{blobcolor this.selected.title}}>
-  <button type="button" class="modal-close" {{on 'click' this.hideModal}}><FaIcon @icon='close'/></button>
-  {{svg-jar this.selected.icon class='illustration'}}
-  <p class="modal-description">{{this.selected.description}}</p>
-  <button type="button" class="button button-secondary" {{on 'click' this.hideModal}}>I'll come back</button>
-  {{#unless this.selected.completed}}
-    <button type="button" class="button complete" {{on 'click' this.completeSquare}}>Add to my roles</button>
-  {{/unless}}
-</dialog>
 <div class="callout">
   <h2>How to</h2>
   <h1 class="callout-focus">Contribute</h1>

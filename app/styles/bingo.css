@@ -25,16 +25,26 @@ body.bingo {
   margin: 8px 8px 8px 0;
 }
 
-dialog {
+.contribute-modal {
   position: relative;
   width: 625px;
   border: 0;
+  background-color: white;
   border-radius: 12px;
   text-align: center;
   padding: 64px;
 }
 
-dialog > .illustration {
+.illustration {
+  fill: var(--blob-color);
+}
+
+.contribute-modal > .modal-title {
+  font-family: "PT serif", serif;
+  font-size: 1.5em;
+}
+
+.contribute-modal > .illustration {
   height: 140px;
 }
 
@@ -44,10 +54,6 @@ dialog > .illustration {
 
 .cell > .illustration {
   height: 90px;
-}
-
-.illustration:first-child {
-  fill: var(--blob-color);
 }
 
 .modal-close {
@@ -76,6 +82,7 @@ dialog > .illustration {
   width: max-content;
   text-decoration: none;
   transition: all 0.2s ease;
+  font-family: Poppins, sans-serif;
 }
 
 .button-secondary {

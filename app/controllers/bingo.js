@@ -1,8 +1,11 @@
 import Controller from '@ember/controller';
 import { tracked } from '@glimmer/tracking';
 import { action } from '@ember/object';
+import { inject as service } from '@ember/service';
+import ContributeModal from '../components/contribute-modal';
 
 export default class BingoController extends Controller {
+  @service modals;
   @tracked selected = { title: '', icon: '' };
   dialog = document.querySelector('dialog');
 
@@ -16,26 +19,20 @@ export default class BingoController extends Controller {
 
   @action
   selectSquare(cell) {
-    if (this.selected == cell) {
-      this.selected = null;
-    } else {
-      this.selected = cell;
-    }
-    document.querySelector('dialog').showModal();
+    this.selected = cell;
+    this.modals.open(ContributeModal, {
+      selected: this.selected,
+      completeSquare: this.completeSquare,
+    });
   }
 
   @action
-  completeSquare() {
+  completeSquare(close) {
     this.selected.completed = true;
     const completedCells = this.model
       .filter((i) => i.completed)
       .map((i) => i.title);
     localStorage.setItem('completed', JSON.stringify(completedCells));
-    document.querySelector('dialog').close();
-  }
-
-  @action
-  hideModal() {
-    document.querySelector('dialog').close();
+    close();
   }
 }

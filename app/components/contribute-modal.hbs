@@ -1,0 +1,11 @@
+<div class="contribute-modal" style={{blobcolor @data.selected.title}}>
+  <button type="button" class="modal-close" {{on 'click' @close}}><FaIcon @icon='close'/></button>
+  {{svg-jar @data.selected.icon class='illustration'}}
+  <p class="modal-title">{{@data.selected.title}}</p>
+  <p class="modal-description">{{@data.selected.description}}</p>
+  <button type="button" class="button button-secondary" {{on 'click' @close}}>I'll come back</button>
+  {{#unless @data.selected.completed}}
+    <button type="button" class="button complete" {{on 'click' (fn @data.completeSquare @close)}}>Add to my roles</button>
+  {{/unless}}
+</div>
+
