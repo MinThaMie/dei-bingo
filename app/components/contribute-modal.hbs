@@ -4,8 +4,10 @@
   <p class="modal-title">{{@data.selected.title}}</p>
   <p class="modal-description">{{@data.selected.description}}</p>
   <button type="button" class="button button-secondary" {{on 'click' @close}}>I'll come back</button>
-  {{#unless @data.selected.completed}}
+  {{#if @data.selected.completed}}
+    <button type="button" class="button complete" {{on 'click' (fn @data.removeSquare @close)}}>Remove from my roles</button>
+  {{else}}
     <button type="button" class="button complete" {{on 'click' (fn @data.completeSquare @close)}}>Add to my roles</button>
-  {{/unless}}
+  {{/if}}
 </div>
 

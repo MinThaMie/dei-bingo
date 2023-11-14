@@ -67,6 +67,13 @@ nav > a.active {
   text-decoration-thickness: 2px;
 }
 
+.mobile-bar {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
 .mobile-menu-wrapper {
   z-index: 0;
   position: relative;
@@ -75,6 +82,11 @@ nav > a.active {
 /* stylelint-disable-next-line selector-class-pattern */
 .mobile-menu__toggle {
   margin-bottom: 20px;
+}
+
+/* stylelint-disable-next-line selector-class-pattern */
+.mobile-menu__mask {
+  left: -100vw;
 }
 
 .mobile > nav {
@@ -135,8 +147,8 @@ nav > a.active {
 
 .menu-button {
   border: none;
-  color: back;
-  background-color: white;
+  background-color: transparent;
+  font-size: 1.5em;
 }
 
 .menu-button:hover {

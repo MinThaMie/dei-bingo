@@ -15,7 +15,17 @@
 </div>
 {{else}}
 <MobileMenuWrapper as |mmw|>
-  <mmw.MobileMenu as |mm|>
+
+  <mmw.Content class="mobile-container">
+    <div class="mobile-bar">
+      <img src="logo.svg" alt="4 abstract people">
+      <mmw.Toggle class="menu-button">
+        <FaIcon @icon="bars" />
+      </mmw.Toggle>
+    </div>
+    {{outlet}}
+  </mmw.Content>
+   <mmw.MobileMenu @type="right" as |mm|>
     <div class="menu mobile">
       {{!-- template-lint-disable no-duplicate-landmark-elements --}}
       <nav>
@@ -27,12 +37,6 @@
     </div>
   </mmw.MobileMenu>
 
-  <mmw.Content class="mobile-container">
-    <mmw.Toggle class="menu-button">
-      <FaIcon @icon="hamburger" />
-    </mmw.Toggle>
-    {{outlet}}
-  </mmw.Content>
 </MobileMenuWrapper>
 {{/if}}
 

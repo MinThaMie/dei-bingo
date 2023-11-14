@@ -48,15 +48,18 @@
 .link-icon {
   rotate: 45deg;
   margin-left: 8px;
+  height: 16px;
+  width: 16px;
+  padding-top: 4px;
 }
 
 .definition-container a,
 .definition-container a:visited {
-  color: var(--primary-color);
+  fill: var(--primary-color);
 }
 
 .definition-container a:hover {
-  color: var(--primary-hover-color);
+  fill: var(--primary-hover-color);
 }
 
 .definition {

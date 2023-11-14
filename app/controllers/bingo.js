@@ -23,7 +23,18 @@ export default class BingoController extends Controller {
     this.modals.open(ContributeModal, {
       selected: this.selected,
       completeSquare: this.completeSquare,
+      removeSquare: this.removeSquare,
     });
+  }
+
+  @action
+  removeSquare(close) {
+    this.selected.completed = false;
+    const completedCells = this.model
+      .filter((i) => i.completed)
+      .map((i) => i.title);
+    localStorage.setItem('completed', JSON.stringify(completedCells));
+    close();
   }
 
   @action
