@@ -3,11 +3,10 @@ import seedrandom from 'seedrandom/seedrandom';
 
 const colors = [
   '#FFA07D',
-  '#85D1CF',
-  '#A0A8F0',
-  '#4C8BF0',
   '#949CFA',
   '#FFBC8F',
+  '#85D1CF',
+  '#4C8BF0',
   '#FFCD82',
 ];
 

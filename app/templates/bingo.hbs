@@ -5,7 +5,7 @@
 </div>
 <p class="intro">Below you can explore different ways to contribute to diversity and inclusion at your organisation. If you find a role that suits you, you can add it to ‘my roles’.</p>
 
-<h3>My Roles</h3>
+<h3 class="cards-title">My Roles</h3>
 <div class="bingo-card">
   {{#each this.roles as |item|}}
     <button type="button" style={{blobcolor item.title}} class="cell {{if item.completed 'completed'}}" {{on 'click' (fn this.selectSquare item)}}>
@@ -14,7 +14,7 @@
   {{/each}}
 </div>
 
-<h3>Different ways to contribute</h3>
+<h3 class="cards-title">Different ways to contribute</h3>
 <div class="bingo-card">
   {{#each this.squares as |item| }}
     <button type="button"  style={{blobcolor item.title}}  class="cell {{if item.completed 'completed'}}" {{on 'click' (fn this.selectSquare item)}}>      {{svg-jar item.icon class='illustration'}}

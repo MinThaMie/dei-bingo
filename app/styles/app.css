@@ -2,7 +2,7 @@
 @import "bingo.css";
 @import "glossary.css";
 @import "resources.css";
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=PT+Serif:wght@700&family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600&family=PT+Serif:wght@700&display=swap");
 
 :root {
   --primary-color: #3345ff;
@@ -23,11 +23,16 @@ h3 {
 }
 
 img {
-  height: 80px;
+  height: 48px;
+}
+
+p {
+  font-weight: 300;
 }
 
 p.intro {
   max-width: 50ch;
+  line-height: 1.5em;
 }
 
 .navbar {
@@ -42,16 +47,17 @@ p.intro {
   height: 60px;
   display: flex;
   justify-content: flex-end;
-  gap: 20px;
+  gap: 34px;
   align-items: center;
   padding-right: 100px;
 }
 
 nav > a {
-  font-family: Poppins, sans-serif;
+  font-family: Inter, sans-serif;
   color: black;
-  font-size: 1.5em;
+  font-size: 1.25em;
   text-decoration: none;
+  font-weight: 300;
 }
 
 nav > a.active {
@@ -91,10 +97,6 @@ nav > a.active {
   padding: 20px;
 }
 
-.text {
-  max-width: 60ch;
-}
-
 .callout-focus {
   font-size: 4em;
   color: var(--primary-color);
@@ -103,21 +105,27 @@ nav > a.active {
 }
 
 .callout {
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 
 .callout > h2 {
   margin: 0;
+  margin-bottom: 4px;
   font-size: 1.5em;
-  font-weight: normal;
+  font-weight: 300;
 }
 
 .callout.landing-callout > .callout-focus {
   font-size: 5em;
+  line-height: 79px;
 }
 
 .callout.landing-callout > h2 {
   font-size: 2em;
+}
+
+.callout.landing-callout {
+  margin-bottom: 33px;
 }
 
 .button-index {
@@ -125,12 +133,19 @@ nav > a.active {
   font-size: 1.125em;
 }
 
-.button-inverted {
-  border: 2px solid var(--primary-color);
-  color: var(--primary-color);
+.menu-button {
+  border: none;
+  color: back;
   background-color: white;
 }
 
-.button-inverted:hover {
-  color: white;
+.menu-button:hover {
+  color: var(--primary-color);
+}
+
+.large-illustration {
+  height: 80%;
+  position: fixed;
+  top: 120px;
+  right: 20px;
 }

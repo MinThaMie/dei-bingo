@@ -5,14 +5,15 @@ body.resources {
 .resource-container {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 30px;
+  margin-top: 46px;
 }
 
 .resource-card {
   background-color: white;
   border-radius: 12px;
-  width: 370px;
-  padding: 32px;
+  width: 400px;
+  padding: 46px;
 }
 
 .resource-header {
@@ -24,14 +25,21 @@ body.resources {
 .resource-header > h3 {
   color: black;
   font-size: 1.5em;
+  margin-bottom: 0;
 }
 
 .resource-header > svg {
-  height: 90px;
+  height: 100px;
 }
 
 .resource-list {
   padding: 0;
+}
+
+.resource-card > h4 {
+  margin-top: 40px;
+  margin-bottom: 10px;
+  line-height: 30px;
 }
 
 .resource-list > li {
@@ -41,5 +49,9 @@ body.resources {
 
 .resource-list > li > a {
   color: black;
+  font-weight: 300;
   text-decoration-color: var(--primary-color);
+  text-underline-offset: 4px;
+  line-height: 18.5px;
+  font-size: 0.875em;
 }
