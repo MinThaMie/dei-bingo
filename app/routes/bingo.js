@@ -13,7 +13,7 @@ const cells = [
   {
     icon: 'ambassador',
     title: 'Ambassador',
-    description: 'I took the Ambassador for inclusion Training',
+    description: 'I took the Ambassador for Inclusion Training and promote DEI',
     explanation: '',
   },
   {
@@ -25,14 +25,13 @@ const cells = [
   {
     icon: 'advocate',
     title: 'Advocate',
-    description:
-      'I encourage fellow persons of privilege to become active allies',
+    description: 'I encourage my colleagues to become active allies',
     explanation: '',
   },
   {
     icon: 'bookworm',
     title: 'Bookworm',
-    description: 'I read a book about DE&I',
+    description: 'I read books about DEI',
     explanation: '',
   },
   {
@@ -44,26 +43,25 @@ const cells = [
   {
     icon: 'volunteer',
     title: 'Volunteer',
-    description: 'Volunteer for a D&I initiative.',
+    description: 'I volunteer for a DEI initiative in or outside the workplace',
     explanation: '',
   },
   {
     icon: 'listener',
     title: 'Listener',
-    description:
-      "I don't interrupt underrepresented people when they are speaking",
+    description: 'I actively seek to understand others',
     explanation: '',
   },
   {
     icon: 'speaker',
     title: 'Speaker',
-    description: 'I spread the D&I message within our company',
+    description: 'I spread the DEI message within our company',
     explanation: '',
   },
   {
     icon: 'celebrator',
     title: 'Celebrator',
-    description: 'Celebrate a cultural holiday or heritage month.',
+    description: 'I participate in celebrating cultural holidays or heritage',
     explanation: '',
   },
   {
@@ -82,19 +80,20 @@ const cells = [
   {
     icon: 'sharer',
     title: 'Sharer',
-    description: 'I share D&I resources with colleagues',
+    description: 'I share DEI resources with colleagues',
     explanation: '',
   },
   {
     icon: 'ally',
     title: 'Ally',
-    description: 'I strive to be an ally',
+    description: 'I actively amplify underrepresented voices',
     explanation: '',
   },
   {
     icon: 'protector',
     title: 'Protector',
-    description: 'I speak up when I see discrimination or exclusion',
+    description:
+      'I speak up and speak out when I notice exclusion or disrespectful behavior',
     explanation: '',
   },
   {
@@ -106,26 +105,25 @@ const cells = [
   {
     icon: 'accountant',
     title: 'Accountant',
-    description:
-      'I hold my managers accountable for implementing and spearheading our D&I story',
+    description: 'I hold leadership accountable for living our DEI story',
     explanation: '',
   },
   {
     icon: 'mentor',
     title: 'Mentor',
-    description: 'I mentor somebody from an underrepresented group',
+    description: 'I support and mentor diverse talent',
     explanation: '',
   },
   {
     icon: 'recruiter',
     title: 'Recruiter',
-    description: 'I make my hiring procress inclusive and objective',
+    description: 'I use an inclusive and objective hiring procress',
     explanation: '',
   },
   {
     icon: 'encourager',
     title: 'Encourager',
-    description: 'I share appreciation for doing the D&I work',
+    description: 'I share appreciation for doing the DEI work',
     explanation: '',
   },
   {
@@ -138,34 +136,32 @@ const cells = [
   {
     icon: 'together',
     title: 'Sponsor',
-    description:
-      'I identify rising diverse talent and open doors for deserving candidates',
+    description: 'I identify and actively support and promote diverse talent',
     explanation: '',
   },
   {
     icon: 'brainiac',
     title: 'Brainiac',
-    description:
-      'I promote mental health awareness and reduce the stigma surrounding this topic',
+    description: 'I raise mental health awareness and practices',
     explanation: '',
   },
   {
     icon: 'joiner',
     title: 'Joiner',
-    description: 'I attend D&I community events',
+    description: 'I attend DEI community events',
     explanation: '',
   },
   {
     icon: 'bookworm',
     title: 'Student',
-    description: 'I am learning more and more about unconsious bias',
+    description: "I am learning more about unconsious bias and it's impact",
     explanation: '',
   },
   {
     icon: 'globetrotter',
     title: 'Globetrotter',
     description:
-      'I speak with colleagues all over the world about how they experience life',
+      'I engage with international colleagues and am curious about their perspective',
     explanation: '',
   },
 ].map((i) => tracked({ ...i, completed: completedCells.includes(i.title) }));
