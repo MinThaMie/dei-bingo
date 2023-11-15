@@ -72,6 +72,7 @@
 .definition {
   font-size: 0.9em;
   margin: 0;
+  line-height: 18px;
 }
 
 @media (width <= 840px) {
