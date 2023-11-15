@@ -19,6 +19,8 @@ body.bingo {
   border: 1px solid transparent;
   font-size: 0.8em;
   font-weight: 300;
+  display: flex;
+  flex-direction: column;
 }
 
 .title {
@@ -96,6 +98,7 @@ body.bingo {
 
 .button-secondary {
   background-color: var(--secondary-color);
+  margin-right: 16px;
 }
 
 .button:hover {
