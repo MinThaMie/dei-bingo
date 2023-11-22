@@ -2,7 +2,7 @@
 
 {{#if (media 'isDesktop')}}
 <div class="navbar">
-  <img src="logo.svg" alt="4 abstract people">
+  <LinkTo @route="index"><img src="logo.svg" alt="4 abstract people"></LinkTo>
   <nav>
     <LinkTo @route="index">Home</LinkTo>
     <LinkTo @route="bingo">Contribute</LinkTo>
@@ -18,7 +18,7 @@
 
   <mmw.Content class="mobile-container">
     <div class="mobile-bar">
-      <img src="logo.svg" alt="4 abstract people">
+      <LinkTo @route="index"><img src="logo.svg" alt="4 abstract people"></LinkTo>
       <mmw.Toggle class="menu-button">
         <FaIcon @icon="bars" />
       </mmw.Toggle>
