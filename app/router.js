@@ -8,6 +8,6 @@ export default class Router extends EmberRouter {
 
 Router.map(function () {
   this.route('glossary');
-  this.route('bingo');
+  this.route('contribute');
   this.route('resources');
 });

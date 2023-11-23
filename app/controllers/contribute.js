@@ -4,7 +4,7 @@ import { action } from '@ember/object';
 import { inject as service } from '@ember/service';
 import ContributeModal from '../components/contribute-modal';
 
-export default class BingoController extends Controller {
+export default class ContributeController extends Controller {
   @service modals;
   @tracked selected = { title: '', icon: '' };
   dialog = document.querySelector('dialog');

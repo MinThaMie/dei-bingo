@@ -1,13 +1,11 @@
 {{page-title "Contribute"}}
-<div class="callout">
-  <h2>How to</h2>
-  <h1 class="callout-focus">Be an Ally</h1>
-</div>
+<Callout @subtitle="How to">Be an Ally</Callout>
+
 <p class="intro">Below you can explore different ways to contribute to Diversity, Equity and Inclusion (DEI) at your organisation. If you find a role that suits you, you can add it to ‘my roles’.</p>
 
-<h3 class="cards-title">My Roles</h3>
+<h2 class="cards-title">My Roles</h2>
 <div class="bingo-card">
-  {{#unless this.roles}}<p class="intro"><i>You have not added any roles, take a look below to see what you contribute</i></p>{{/unless}}
+  {{#unless this.roles}}<p class="intro no-roles">You have not added any roles, take a look below to see what you contribute</p>{{/unless}}
   {{#each this.roles as |item|}}
     <button type="button" style={{blobcolor item.title}} class="cell {{if item.completed 'completed'}}" {{on 'click' (fn this.selectSquare item)}}>
       {{svg-jar item.icon class='illustration'}}
@@ -15,7 +13,7 @@
   {{/each}}
 </div>
 
-<h3 class="cards-title">Different ways to contribute</h3>
+<h2 class="cards-title">Different ways to contribute</h2>
 <div class="bingo-card">
   {{#each this.squares as |item| }}
     <button type="button"  style={{blobcolor item.title}}  class="cell {{if item.completed 'completed'}}" {{on 'click' (fn this.selectSquare item)}}>      {{svg-jar item.icon class='illustration'}}

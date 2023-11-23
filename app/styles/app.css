@@ -16,7 +16,7 @@ body {
   font-family: Inter, sans-serif;
 }
 
-h3 {
+h2 {
   color: var(--primary-color);
   font-family: "PT serif", serif;
   font-size: 2.5em;
@@ -35,6 +35,10 @@ p.intro {
   line-height: 1.5em;
 }
 
+nav li {
+  list-style-type: none;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -43,16 +47,17 @@ p.intro {
   margin-top: 38px;
 }
 
-.navbar > nav {
+.navbar > nav > ul {
   height: 60px;
   display: flex;
   justify-content: flex-end;
   gap: 34px;
   align-items: center;
   padding-right: 100px;
+  margin: 0;
 }
 
-nav > a {
+nav > ul > li > a {
   font-family: Inter, sans-serif;
   color: black;
   font-size: 1.25em;
@@ -60,7 +65,7 @@ nav > a {
   font-weight: 300;
 }
 
-nav > a.active {
+nav > ul > li > a.active {
   color: var(--primary-color);
   text-decoration: underline;
   text-underline-offset: 8px;
@@ -89,11 +94,12 @@ nav > a.active {
   left: -100vw;
 }
 
-.mobile > nav {
+.mobile > nav > ul {
   display: flex;
   flex-direction: column;
   padding: 20px;
   gap: 16px;
+  margin: 0;
 }
 
 /* stylelint-disable-next-line selector-class-pattern */
@@ -109,7 +115,14 @@ nav > a.active {
   padding: 20px;
 }
 
-.callout-focus {
+.callout-subtitle {
+  margin: 0;
+  margin-bottom: 4px;
+  font-size: 1.5em;
+  font-weight: 300;
+}
+
+.callout-title {
   font-size: 4em;
   color: var(--primary-color);
   margin: 0;
@@ -117,22 +130,16 @@ nav > a.active {
 }
 
 .callout {
+  font-size: 1em;
   margin-bottom: 25px;
 }
 
-.callout > h2 {
-  margin: 0;
-  margin-bottom: 4px;
-  font-size: 1.5em;
-  font-weight: 300;
-}
-
-.callout.landing-callout > .callout-focus {
+.callout.landing-callout > .callout-title {
   font-size: 5em;
   line-height: 79px;
 }
 
-.callout.landing-callout > h2 {
+.callout.landing-callout > .callout-subtitle {
   font-size: 2em;
 }
 
@@ -143,6 +150,11 @@ nav > a.active {
 .button-index {
   margin-top: 80px;
   font-size: 1.125em;
+}
+
+.button-index:focus {
+  outline: 2px var(--primary-hover-color) dotted;
+  outline-offset: 2px;
 }
 
 .menu-button {

@@ -1,5 +1,9 @@
-body.bingo {
+body.contribute {
   background-color: var(--background-color);
+}
+
+.no-roles {
+  font-style: italic;
 }
 
 .bingo-card {
@@ -23,6 +27,10 @@ body.bingo {
   flex-direction: column;
   align-items: center;
   color: black;
+}
+
+.cell:focus-visible {
+  outline: 2px dotted var(--blob-color);
 }
 
 .title {

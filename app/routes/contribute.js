@@ -166,7 +166,7 @@ const cells = [
   },
 ].map((i) => tracked({ ...i, completed: completedCells.includes(i.title) }));
 
-export default class BingoRoute extends Route {
+export default class ContributeRoute extends Route {
   model() {
     return cells;
   }
