@@ -1,7 +1,8 @@
-# dei-bingo
+# DEI Bingo
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+Diversity and Inclusion are essential for fostering a more equitable and harmonious workplace. This app is your ticket to becoming an active ally in the realm of diversity and inclusion!
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a030c722-8eed-4f4e-9d2c-4e9cb802438d/deploy-status)](https://app.netlify.com/sites/diversity-equity-inclusion/deploys)
 
 ## Prerequisites
 
