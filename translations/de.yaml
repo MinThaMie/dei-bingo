@@ -1,0 +1,257 @@
+menu:
+  logo-alt: '4 abstrakte Personen'
+  aria-label: 'Menüschaltfläche'
+  home: 'Startseite'
+  contribute: 'Beitragen'
+  glossary: 'Glossar'
+  resources: 'Ressourcen'
+  language: 'Sprache auswählen'
+index:
+  page-title: 'DEI@Nedap'
+  subtitle: 'Gemeinsam'
+  title: 'Vielfalt <br> & Integration'
+  welcome: 'Vielfalt und Integration sind entscheidend für die Förderung eines gerechteren und harmonischeren Arbeitsumfelds. Diese App ist Ihr Ticket, um ein aktiver Verbündeter im Bereich Vielfalt und Integration zu werden!'
+  button: 'Jetzt starten!'
+contribute:
+  subtitle: 'Wie man'
+  title: 'Ein Verbündeter sein kann'
+  welcome: 'Hier können Sie verschiedene Möglichkeiten erkunden, wie Sie zur Vielfalt, Gleichberechtigung und Integration (DEI) in Ihrer Organisation beitragen können. Wenn Sie eine Rolle finden, die zu Ihnen passt, können Sie sie zu "Meine Rollen" hinzufügen.'
+  my-roles: 'Meine Rollen'
+  no-roles: 'Sie haben keine Rollen hinzugefügt. Schauen Sie unten, um zu sehen, was Sie beitragen können.'
+  bingo-title: 'Verschiedene Möglichkeiten, beizutragen'
+  cancel: 'Ich komme später zurück'
+  add: 'Zu meinen Rollen hinzufügen'
+  remove: 'Aus meinen Rollen entfernen'
+  roles:
+    ambassador:
+      title: 'Botschafter'
+      description: 'Ich habe das Botschafter für Inklusionstraining absolviert und fördere DEI.'
+      explanation: ''
+    photographer:
+      title: 'Fotograf'
+      description: 'Ich weise auf nicht inklusive Bilder in unseren Marketingmaterialien hin.'
+      explanation: ''
+    advocate:
+      title: 'Fürsprecher'
+      description: 'Ich ermutige meine Kollegen, aktive Verbündete zu werden.'
+      explanation: ''
+    bookworm:
+      title: 'Leseratte'
+      description: 'Ich lese Bücher über DEI.'
+      explanation: ''
+    decider:
+      title: 'Entscheider'
+      description: 'Ich suche diverse Perspektiven bei Entscheidungsfindungen.'
+      explanation: ''
+    volunteer:
+      title: 'Freiwilliger'
+      description: 'Ich engagiere mich für ein DEI-Initiative innerhalb oder außerhalb des Arbeitsplatzes.'
+      explanation: ''
+    listener:
+      title: 'Zuhörer'
+      description: 'Ich bemühe mich aktiv, andere zu verstehen.'
+      explanation: ''
+    speaker:
+      title: 'Sprecher'
+      description: 'Ich verbreite die DEI-Botschaft innerhalb unseres Unternehmens.'
+      explanation: ''
+    celebrator:
+      title: 'Festtagsgestalter'
+      description: 'Ich nehme an der Feier kultureller Feiertage oder des Erbes teil.'
+      explanation: ''
+    inspector:
+      title: 'Inspektor'
+      description: 'Ich identifiziere und behebe Zugänglichkeitsprobleme in unseren Produkten und am Arbeitsplatz.'
+      explanation: ''
+    wordsmith:
+      title: 'Wortkünstler'
+      description: 'Ich achte darauf, dass unsere Botschaften inklusiv sind.'
+      explanation: ''
+    sharer:
+      title: 'Teiler'
+      description: 'Ich teile DEI-Ressourcen mit Kollegen.'
+      explanation: ''
+    ally:
+      title: 'Verbündeter'
+      description: 'Ich verstärke aktiv die Stimmen unterrepräsentierter Gruppen.'
+      explanation: ''
+    protector:
+      title: 'Beschützer'
+      description: 'Ich spreche mich aus, wenn ich Ausschlüsse oder respektloses Verhalten bemerke.'
+      explanation: ''
+    facilitator:
+      title: 'Moderator'
+      description: 'Ich schaffe einen sicheren Raum für Menschen, um sich auszutauschen und zusammenzuarbeiten.'
+      explanation: ''
+    accountant:
+      title: 'Buchhalter'
+      description: 'Ich halte die Führungsebene für die Umsetzung unserer DEI-Geschichte verantwortlich.'
+      explanation: ''
+    mentor:
+      title: 'Mentor'
+      description: 'Ich unterstütze und mentorisiere vielfältiges Talent.'
+      explanation: ''
+    recruiter:
+      title: 'Rekrutierer'
+      description: 'Ich verwende einen inklusiven und objektiven Einstellungsprozess.'
+      explanation: ''
+    encourager:
+      title: 'Ermutiger'
+      description: 'Ich teile Wertschätzung für die Arbeit im Bereich DEI.'
+      explanation: ''
+    inquisitor:
+      title: 'Fragender'
+      description: 'Ich stelle unbequeme Fragen, wenn es um den Status quo geht.'
+      explanation: ''
+    sponsor:
+      title: 'Förderer'
+      description: 'Ich identifiziere und unterstütze aktiv vielfältiges Talent.'
+      explanation: ''
+    brainiac:
+      title: 'Kopfmensch'
+      description: 'Ich fördere das Bewusstsein und die Praktiken für psychische Gesundheit.'
+      explanation: ''
+    joiner:
+      title: 'Teilnehmer'
+      description: 'Ich nehme an DEI-Gemeinschaftsveranstaltungen teil.'
+      explanation: ''
+    student:
+      title: 'Schüler'
+      description: 'Ich lerne mehr über unbewusste Vorurteile und ihre Auswirkungen.'
+      explanation: ''
+    globetrotter:
+      title: 'Weltbummler'
+      description: 'Ich tausche mich mit internationalen Kollegen aus und bin neugierig auf ihre Perspektiven.'
+      explanation: ''
+
+glossary:
+  subtitle: 'Hier überprüfen'
+  title: 'DEI-Vokabular'
+  welcome: 'Sie sind sich nicht sicher, was einige Begriffe bedeuten? Kein Problem! In diesem Überblick finden Sie viele Begriffe, die Ihnen in Ihrer Organisation begegnen können.'
+  placeholder: 'Hier eingeben, um das Glossar zu filtern'
+  search: 'Glossar suchen'
+  go-to: 'Go to'
+  definitions:
+    ableism:
+      title: 'Ableismus'
+      definition: 'Diskriminierung von Menschen mit geistigen und/oder körperlichen Behinderungen; soziale Strukturen, die zugunsten von Menschen ohne Behinderungen ausgelegt sind. Menschen werden bestimmte angenommene Fähigkeiten, Fertigkeiten oder Charakterorientierungen zugeschrieben oder verweigert.'
+    afab-amab:
+      title: 'AFAB / AMAB'
+      definition: 'Akronym für "Bei der Geburt als Frau zugewiesen" und "Bei der Geburt als Mann zugewiesen".'
+    bipoc:
+      title: 'BIPOC'
+      definition: 'Akronym für Schwarze, Indigene und Menschen mit Hautfarbe. Der Begriff wurde nach den Protesten gegen Rassismus und Polizeigewalt im Jahr 2020 nach dem Schuss auf George Floyd populärer und bekannter. BIPOC betont die besonderen Herausforderungen, denen Schwarze und Indigene Menschen (in den USA und Kanada) gegenüberstehen, und bedeutet, dass nicht alle Menschen mit Hautfarbe die gleiche Ungerechtigkeit erfahren.'
+    cisgender:
+      title: 'Cisgender'
+      definition: 'Ein Begriff, der verwendet wird, um eine Person zu beschreiben, deren <a href="#Gender Identity">Geschlechtsidentität</a> mit dem bei der Geburt zugewiesenen Geschlecht übereinstimmt. Häufig abgekürzt als "cis".'
+    culture:
+      title: 'Kultur'
+      definition: 'Ein Konzept, das das soziale Verhalten, Institutionen und Normen umfasst, die in menschlichen Gesellschaften gefunden werden, sowie das Wissen, die Überzeugungen, die Kunst, die Gesetze, die Bräuche, die Fähigkeiten und die Gewohnheiten der Individuen in diesen Gruppen. Kultur entsteht oft in oder wird einer bestimmten Region oder einem bestimmten Ort zugeschrieben.'
+    cultural-competence:
+      title: 'Kulturelle Kompetenz'
+      definition: 'Bezieht sich auf das Wissen und das Verständnis einer Person oder Organisation von verschiedenen Kulturen und Perspektiven. Es ist ein Maßstab für die Fähigkeit einer Person oder Arbeitskraft, mit Menschen verschiedener Nationalitäten, Ethnien, Sprachen und Religionen zusammenzuarbeiten. Kurz gesagt, es ist die Fähigkeit, effektiv mit Menschen aus verschiedenen Kulturen zu kommunizieren.'
+    discrimination:
+      title: 'Diskriminierung'
+      definition: 'Ungünstige oder unfaire Behandlung von Menschen aufgrund der Gruppen, Klassen oder anderer Kategorien, zu denen sie gehören oder wahrgenommen werden. Einige Beispiele sind Ethnizität, Hautfarbe, Religion, sozioökonomischer Status, Bildung, Geschlecht, Familienstand, politische Überzeugung, Sprache, Alter, Geschlecht, physische oder mentale Fähigkeiten, sexuelle Orientierung oder <a href="#Gender Identity">Geschlechtsidentität</a>.'
+    diversity:
+      title: 'Vielfalt'
+      definition: 'Psychologische, physische und soziale Unterschiede, die bei allen Individuen auftreten; einschließlich, aber nicht beschränkt auf Rasse, Ethnizität, Nationalität, Religion, sozioökonomischen Status, Bildung, Familienstand, Sprache, Alter, Geschlecht, sexuelle Orientierung, physische oder mentale Fähigkeiten und Lernstile. Eine vielfältige Gruppe, Gemeinschaft oder Organisation ist ein Ort, an dem eine Vielzahl sozialer und kultureller Merkmale existiert.'
+    emotional-labor:
+      title: 'Emotionale Arbeit'
+      definition: 'Der Prozess der Verwaltung von Emotionen, um den emotionalen Anforderungen eines Jobs gerecht zu werden. Konkret wird von Mitarbeitern erwartet, dass sie ihre Persönlichkeit bei Interaktionen mit Kunden, Kollegen, Klienten und Vorgesetzten regulieren. Dies umfasst die Analyse und Entscheidungsfindung in Bezug auf den Ausdruck von Emotionen, unabhängig davon, ob diese Emotionen tatsächlich gefühlt werden, sowie das Unterdrücken von Emotionen, die gefühlt, aber nicht ausgedrückt werden.'
+    emotional-tax:
+      title: 'Emotionale Steuer'
+      definition: 'Die Kombination aus Aufmerksamkeit, sich vor Vorurteilen zu schützen und sich am Arbeitsplatz aufgrund von Geschlecht, Rasse und/oder Ethnizität anders zu fühlen als Kollegen, und die damit verbundenen Auswirkungen auf Gesundheit, Wohlbefinden und die Fähigkeit, am Arbeitsplatz zu gedeihen. Es beeinträchtigt insbesondere Mitarbeiter aus Minderheitsgruppen.'
+    equality:
+      title: 'Gleichheit'
+      definition: 'Der Zustand der Gleichheit, insbesondere in Bezug auf Status, Rechte und Chancen. Gleichheit bedeutet, dass jedes Individuum oder jede Gruppe die gleichen Ressourcen und Chancen erhält, unabhängig von ihren Umständen.'
+    equity:
+      title: 'Gerechtigkeit'
+      definition: 'Bezieht sich auf die Gerechtigkeit in der Art und Weise, wie Menschen behandelt werden. Gleichheit würde Individuen mit den gleichen Chancen oder Ressourcen versorgen. Gerechtigkeit berücksichtigt dagegen die Bedürfnisse jedes Individuums, um sicherzustellen, dass der Zugang zu den gleichen Chancen und Ergebnissen gewährleistet ist.'
+    gender:
+      title: 'Geschlecht'
+      definition: 'Die sozial konstruierten Vorstellungen über das Verhalten, die Aktionen und Rollen, die ein bestimmtes Geschlecht ausführt.'
+    gender-expression:
+      title: 'Geschlechtsausdruck'
+      definition: 'Ein Begriff, der beschreibt, wie Menschen extern mitteilen oder ihre <a href="#Gender Identity">Geschlechtsidentität</a> anderen gegenüber ausdrücken.'
+    gender-identity:
+      title: 'Geschlechtsidentität'
+      definition: 'Die persönliche Wahrnehmung des eigenen Geschlechts. Oft im Zusammenhang mit einer Geschlechtsgegensätzlichkeit zwischen Männlichkeit und Weiblichkeit.'
+    gender-neutral:
+      title: 'Geschlechtsneutral'
+      definition: 'Wird verwendet, um einen unisexuellen oder geschlechtsneutralen Raum, Sprache usw. zu kennzeichnen. Zum Beispiel ist ein geschlechtsneutrales Badezimmer ein Badezimmer, das für Menschen jeder <a href="#Gender Identity">Geschlechtsidentität</a> und -ausdruck offen ist.'
+    gender-expansive:
+      title: 'Geschlechtserweiternd (geschlechtsnonkonform)'
+      definition: 'Wird verwendet, um diejenigen zu beschreiben, die ihre <a href="#Gender Identity">Geschlechtsidentität</a> als eine der vielen möglichen Geschlechter außerhalb von strikt männlich oder weiblich sehen. Diese Individuen haben umfassende Ansichten über Geschlechtsausdruck und -identität, über das hinaus, was als erwarteter Geschlechtsstandard für ihre Gesellschaft oder Kontext wahrgenommen wird. Einige geschlechtserweiternde Individuen identifizieren sich als Mann oder Frau, einige identifizieren sich als keines von beiden, und andere identifizieren sich als Mischung aus beiden.'
+    implicit-bias:
+      title: 'Implizite Vorurteile'
+      definition: 'Auch bekannt als unbewusste oder verborgene Vorurteile, sind implizite Vorurteile (negative) Assoziationen, die Menschen unbewusst haben. Sie drücken sich automatisch aus, ohne dass Bewusstsein vorhanden ist. Implizite Vorurteile beeinflussen die Einstellung und das Verhalten der Menschen und haben somit Auswirkungen in der realen Welt, selbst wenn sich Einzelpersonen nicht bewusst sind, dass diese Vorurteile in ihnen existieren.'
+    inclusion:
+      title: 'Inklusion'
+      definition: 'Die Handlung, Umgebungen zu schaffen, in denen jedes Individuum oder jede Gruppe sich willkommen, respektiert, unterstützt und geschätzt fühlen kann, um vollständig teilzunehmen. Ein inklusives und einladendes Klima akzeptiert Unterschiede und drückt Respekt in Worten und Taten für alle Menschen aus.'
+    intersectionality:
+      title: 'Intersektionalität'
+      definition: 'Ein analytischer Rahmen, um zu verstehen, wie verschiedene Aspekte der sozialen und politischen Identität einer Person (z. B. Geschlecht, Rasse, Klasse, Sexualität, Fähigkeit, Aussehen usw.) zusammentreffen und einzigartige Kombinationen von Diskriminierung und Privileg erzeugen. Intersektionalität identifiziert die Vorteile und Nachteile, die Menschen aufgrund dieser Kombination von Faktoren erleben.'
+    latino-a:
+      title: 'Latino/a'
+      definition: 'Eine Person, die aus Lateinamerika stammt oder mit diesem Erbe verbunden ist.'
+    latinx:
+      title: 'Latinx'
+      definition: 'Ein geschlechtsneutrales oder nicht-binäres Alternativativ für Latino oder Latina.'
+    lgbtq:
+      title: 'LGBTQ (QIA)'
+      definition: 'Akronym für "Lesbisch, Schwul, Bisexuell, Transgender, Queer (Fragestellend, Intersexuell, Verbündete)". Die Beschreibung der Bewegung erweiterte sich von lesbisch und schwul zu LGBTQ, und einige fügten Zweifel, Bisexualität, Schwule, Lesben, Asexualität, Pansexualität und Polyamorie hinzu. Ein Pluszeichen wird oft zu Varianten des Akronyms hinzugefügt, um weitere Identitäten einzubeziehen.'
+    microaggressions:
+      title: 'Mikroaggressionen'
+      definition: 'Tägliche verbale, nonverbale und umgebungsbezogene herabsetzende, ignorierende oder beleidigende Bemerkungen, sei es absichtlich oder nicht, die feindselige, herabsetzende oder negative Botschaften an Zielgruppen vermitteln, basierend allein auf ihrer Zugehörigkeit zu marginalisierten Gruppen. Zum Beispiel der Kommentar, dass eine "schwarze" Person "weiß spricht", wenn sie wortgewandt und redegewandt ist, oder auf die andere Straßenseite gehen, um die Interaktion mit einer bestimmten rassischen Gruppe zu vermeiden.'
+    neurodiversity:
+      title: 'Neurodiversität'
+      definition: 'Bezieht sich auf die Variation im menschlichen Gehirn in Bezug auf Geselligkeit, Lernen, Aufmerksamkeit, Stimmung und andere mentale Funktionen. Es erkennt an, dass alle Variationen der menschlichen neurologischen Funktion als eine weitere Möglichkeit des Seins respektiert werden müssen, und dass neurologische Unterschiede wie Autismus und ADHS das Ergebnis normaler/natürlicher Variationen im menschlichen Genom sind.'
+    non-binary:
+      title: 'Nicht-binär'
+      definition: 'Ein Adjektiv, das eine Person beschreibt, die sich nicht ausschließlich als Mann oder Frau identifiziert. Nicht-binäre Menschen können sich als sowohl Mann als auch Frau, irgendwo dazwischen oder als völlig außerhalb dieser Kategorien identifizieren.'
+    oppression:
+      title: 'Unterdrückung'
+      definition: 'Eine bösartige oder ungerechte Behandlung oder Ausübung von Macht über eine Gruppe von Individuen. Unterdrückung deutet auf eine hierarchische Beziehung hin, bei der dominante oder privilegierte Gruppen oft auf unbewusste Weise von der Entmachtung untergeordneter oder gezielter Gruppen profitieren.'
+    pansexuality:
+      title: 'Pansexualität'
+      definition: 'Ein Begriff, der sich auf diejenigen bezieht, die sich sexuell, emotional und spirituell fähig fühlen, sich in alle Geschlechter zu verlieben.'
+    people-of-color:
+      title: 'Menschen mit Hautfarbe/Personen mit Farbe'
+      definition: 'Ein Begriff, der hauptsächlich verwendet wird, um jede Person zu beschreiben, die nicht als "weiß" betrachtet wird, meistens in den Vereinigten Staaten. Der Begriff betont gemeinsame Erfahrungen mit systemischem Rassismus, denen einige Gemeinschaften gegenüberstehen.'
+    privilege:
+      title: 'Privileg'
+      definition: 'Unerworbene soziale Macht, die formellen und informellen Institutionen der Gesellschaft allen Mitgliedern einer dominanten Gruppe gewähren (z. B. <a href="#White Privilege">weißes Privileg</a>, männliches Privileg usw.). Privilegien sind für diejenigen, die sie haben, oft unsichtbar, setzen sie jedoch dennoch gegenüber denen, die sie nicht haben, in einen Vorteil. Individuen können in einem Bereich privilegiert sein, aber nicht in einem anderen.'
+    psychological-safety:
+      title: 'Psychologische Sicherheit'
+      definition: 'Der Glaube daran, dass man nicht bestraft oder gedemütigt wird, wenn man Ideen, Fragen, Bedenken oder Fehler äußert. In psychologisch sicheren Arbeitsumgebungen fühlen sich Mitarbeiter befähigt, eine Idee oder Beitrag vollständig auszudrücken, ohne Angst vor negativen Konsequenzen für sich selbst, ihren Status oder ihre Karriere.'
+    queer:
+      title: 'Queer'
+      definition: 'Ein Überbegriff für Menschen, die nicht heterosexuell sind oder nicht <a href="#Cisgender">cisgender</a> sind.'
+    race:
+      title: 'Rasse'
+      definition: 'Eine Kategorisierung von Menschen basierend auf gemeinsamen physischen oder sozialen Merkmalen in Gruppen, die in einer gegebenen Gesellschaft im Allgemeinen als unterschiedlich angesehen werden. Rasse hat keine inhärente physische oder biologische Bedeutung und ist stattdessen eine Identität, die auf Regeln beruht, die von der Gesellschaft festgelegt wurden.'
+    racism:
+      title: 'Rassismus'
+      definition: 'Individuelle und institutionelle Praktiken und Richtlinien, die auf der Überzeugung beruhen, dass eine bestimmte Rasse anderen überlegen ist. Dies führt oft dazu, dass bestimmte Personen und Gruppen ihrer bürgerlichen Freiheiten, Rechte und anderer Ressourcen beraubt werden, was Chancen für soziale, Bildungs- und politische Fortschritte beeinträchtigt.'
+    social-justice:
+      title: 'Soziale Gerechtigkeit'
+      definition: 'Eine Vision einer Gesellschaft, in der die Verteilung von Ressourcen gerecht ist und alle Mitglieder physisch und psychologisch sicher und geschützt sind.'
+    transgender:
+      title: 'Transgender'
+      definition: 'Jemand, dessen <a href="#Gender Identity">Geschlechtsidentität</a> von dem abweicht, was typischerweise mit dem bei der Geburt zugewiesenen Geschlecht verbunden ist. Transgender impliziert keine Form von sexueller Orientierung. Oft abgekürzt als trans.'
+    white-privilege:
+      title: 'Weißes Privileg'
+      definition: 'Bezieht sich auf den ungefragten und unverdienten Satz von Vorteilen, Ansprüchen, Leistungen und Entscheidungen, die Menschen allein deshalb gewährt werden, weil sie "weiß" sind, insbesondere wenn sie sich sonst unter denselben sozialen, politischen oder wirtschaftlichen Umständen befinden.'
+
+resources:
+  subtitle: 'Setzen Sie Ihr'
+  title: 'Lernen fort'
+  welcome: 'Erfahren Sie mehr über verschiedene Themen und finden Sie das Medium, das Ihnen gefällt.'
+  watch: 'Ansehen'
+  listen: 'Zuhören'
+  read: 'Lesen'
+  diversity: 'Vielfalt am Arbeitsplatz'
+  design: 'Inklusives Design'
+  types: 'Arten der Vielfalt / Persönliche Geschichten'
+  community: 'Gemeinschaftsaufbau'
