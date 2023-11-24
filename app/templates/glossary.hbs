@@ -1,17 +1,16 @@
-{{page-title "Glossary"}}
-<Callout @subtitle="Check here">DEI Vocabulary</Callout>
+{{page-title (t "menu.glossary")}}
+<Callout @subtitle={{t "glossary.subtitle"}}>{{t "glossary.title"}}</Callout>
 
-<p class="intro">Not sure what some terms mean? No problem! In this overview you will find many terms that you may encounter within your organization</p>
+<p class="intro">{{t "glossary.welcome"}}</p>
 <div class="search">
   <div class="search-bar">
     <FaIcon class="search-icon" @icon='search' />
-    <Input @type="search" @value={{this.query}} class="search-input light"  placeholder="Type here to filter the glossary" aria-label="Glossary search"/>
+    <Input @type="search" @value={{this.query}} class="search-input light"  placeholder={{t "glossary.placeholder"}} aria-label={{t "glossary.search"}}/>
   </div>
 </div>
 <div class="definition-container">
   {{#each this.results as |item|}}
     {{!-- template-lint-disable no-triple-curlies --}}
-    <div class="row"><div class="caps">{{item.caps}}</div><div><h3 class="glossary-title">{{item.title}}<a href="#{{item.title}}" aria-label="Go to {{item.title}}" id={{item.title}}>{{svg-jar 'link' class="link-icon"}}</a></h3><p class="definition">{{{item.definition}}}</p></div></div>
+    <div class="row"><div class="caps">{{item.caps}}</div><div><h3 class="glossary-title">{{t item.title}}<a href="#{{item.link}}" aria-label="{{t "glossary.go-to"}} {{t item.title}}" id={{ item.link}}>{{svg-jar 'link' class="link-icon"}}</a></h3><p class="definition">{{t item.definition htmlSafe=true}}</p></div></div>
   {{/each}}
 </div>
-{{!-- {{svg-jar 'index-illustration' class="large-illustration"}} --}}
