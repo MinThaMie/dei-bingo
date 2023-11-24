@@ -10,7 +10,7 @@ index:
   page-title: "DEI@Nedap"
   subtitle: "Ensemble"
   title: "Diversité <br> & Inclusion"
-  welcome: "La diversité et l'inclusion sont essentielles pour favoriser un environnement de travail plus équitable et harmonieux. Cette application est votre billet pour devenir un allié actif dans le domaine de la diversité et de l'inclusion !"
+  welcome: "La diversité et l'inclusion sont essentielles pour favoriser un environnement de travail plus équitable et harmonieux. Cette application est votre ticket pour devenir un allié actif dans le domaine de la diversité et de l'inclusion !"
   button: "Commencez maintenant !"
 contribute:
   subtitle: "Comment"
@@ -120,7 +120,7 @@ contribute:
       description: "J'en apprends plus sur les préjugés inconscients et leur impact."
       explanation: ''
     globetrotter:
-      title: 'Trotteur du monde'
+      title: 'Globe-trotteur'
       description: "J'interagis avec des collègues internationaux et suis curieux de leur perspective."
       explanation: ''
 
@@ -133,20 +133,20 @@ glossary:
   go-to: 'Go to'
   definitions:
     ableism:
-      title: 'Ableïsme'
+      title: 'Capacitisime'
       definition: "Discrimination à l'encontre des personnes ayant des incapacités mentales et/ou physiques; structures sociales favorables aux personnes sans incapacités. Des capacités, compétences ou orientations de caractère spécifiques sont attribuées ou refusées aux individus."
     afab-amab:
-      title: 'AFAB / AMAB'
-      definition: 'Acronyme pour "Assignée Femme à la Naissance" et "Assigné Homme à la Naissance".'
+      title: 'AFAN / AHAN'
+      definition: 'Acronyme pour "Assignée Fille/Femme à la Naissance" et "Assigné Homme à la Naissance".'
     bipoc:
-      title: 'BIPOC'
-      definition: "Acronyme pour Noir, Indigène, et Personnes de Couleur. Le terme est devenu plus courant et connu en 2020 après la résurgence du mouvement Black Lives Matter contre le racisme et la violence policière suite à la fusillade de George Floyd. BIPOC vise à souligner les défis particuliers auxquels font face les personnes noires et autochtones (aux États-Unis et au Canada), reconnaissant que toutes les personnes de couleur n'expérimentent pas le même degré d'injustice."
+      title: 'PANDC'
+      definition: "Acronyme pour Personnes Autochtones, Noires et de Couleur. Le terme est devenu plus courant et connu en 2020 après la résurgence du mouvement Black Lives Matter contre le racisme et la violence policière suite à la fusillade de George Floyd. PANDC vise à souligner les défis particuliers auxquels font face les personnes noires et autochtones (aux États-Unis et au Canada), reconnaissant que toutes les personnes de couleur n'expérimentent pas le même degré d'injustice."
     cisgender:
       title: 'Cisgenre'
       definition: "Un terme utilisé pour décrire une personne dont l'<a href="#Gender Identity">identité de genre</a> correspond au sexe qui lui a été assigné à la naissance. Souvent abrégé en "cis"."
     culture:
       title: 'Culture'
-      definition: "Un concept englobant les comportements sociaux, les institutions et les normes présents dans les sociétés humaines, ainsi que les connaissances, croyances, arts, lois, coutumes, compétences et habitudes des individus au sein de ces groupes. La culture découle souvent d'une région ou d'un lieu spécifique."
+      definition: "Un concept englobant les comportements sociaux, les institutions et les normes présentes dans les sociétés humaines, ainsi que les connaissances, croyances, arts, lois, coutumes, compétences et habitudes des individus au sein de ces groupes. La culture découle souvent d'une région ou d'un lieu spécifique."
     cultural-competence:
       title: 'Compétence Culturelle'
       definition: "Fait référence à la connaissance et à la compréhension qu'une personne ou une organisation a des différentes cultures et perspectives. C'est une mesure de la capacité d'une personne ou d'une équipe à collaborer avec des personnes de différentes nationalités, ethnies, langues et religions. En somme, c'est la capacité de communiquer efficacement avec des personnes de différentes cultures."
@@ -196,7 +196,7 @@ glossary:
       title: 'Latino/a'
       definition: "Un individu originaire d'Amérique latine ou ayant un lien avec cet héritage."
     latinx:
-      title: 'Latinx'
+      title: 'Latin'
       definition: "Une alternative gender-neutral ou non-binaire à Latino ou Latina."
     lgbtq:
       title: 'LGBTQ (QIA)'
