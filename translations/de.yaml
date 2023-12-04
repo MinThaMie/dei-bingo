@@ -125,10 +125,10 @@ contribute:
       explanation: ''
 
 glossary:
-  subtitle: 'Hier überprüfen'
+  subtitle: 'Bitte überprüfen'
   title: 'DEI-Vokabular'
   welcome: 'Sie sind sich nicht sicher, was einige Begriffe bedeuten? Kein Problem! In diesem Überblick finden Sie viele Begriffe, die Ihnen in Ihrer Organisation begegnen können.'
-  placeholder: 'Hier eingeben, um das Glossar zu filtern'
+  placeholder: 'Hier tippen, um das Glossar zu filtern'
   search: 'Glossar suchen'
   go-to: 'Go to'
   definitions:
@@ -191,13 +191,13 @@ glossary:
       definition: 'Die Handlung, Umgebungen zu schaffen, in denen jedes Individuum oder jede Gruppe sich willkommen, respektiert, unterstützt und geschätzt fühlen kann, um vollständig teilzunehmen. Ein inklusives und einladendes Klima akzeptiert Unterschiede und drückt Respekt in Worten und Taten für alle Menschen aus.'
     intersectionality:
       title: 'Intersektionalität'
-      definition: 'Ein analytischer Rahmen, um zu verstehen, wie verschiedene Aspekte der sozialen und politischen Identität einer Person (z. B. Geschlecht, Rasse, Klasse, Sexualität, Fähigkeit, Aussehen usw.) zusammentreffen und einzigartige Kombinationen von Diskriminierung und Privileg erzeugen. Intersektionalität identifiziert die Vorteile und Nachteile, die Menschen aufgrund dieser Kombination von Faktoren erleben.'
+      definition: 'Ein analytisches Framework, um zu verstehen, wie verschiedene Aspekte der sozialen und politischen Identität einer Person (z. B. Geschlecht, Rasse, Klasse, Sexualität, Fähigkeit, Aussehen usw.) zusammentreffen und einzigartige Kombinationen von Diskriminierung und Privileg erzeugen. Intersektionalität identifiziert die Vorteile und Nachteile, die Menschen aufgrund dieser Kombination von Faktoren erleben.'
     latino-a:
       title: 'Latino/a'
       definition: 'Eine Person, die aus Lateinamerika stammt oder mit diesem Erbe verbunden ist.'
     latinx:
       title: 'Latinx'
-      definition: 'Ein geschlechtsneutrales oder nicht-binäres Alternativativ für Latino oder Latina.'
+      definition: 'Eine geschlechtsneutrale oder nicht-binäre Alternativative für Latino oder Latina.'
     lgbtq:
       title: 'LGBTQ (QIA)'
       definition: 'Akronym für "Lesbisch, Schwul, Bisexuell, Transgender, Queer (Fragestellend, Intersexuell, Verbündete)". Die Beschreibung der Bewegung erweiterte sich von lesbisch und schwul zu LGBTQ, und einige fügten Zweifel, Bisexualität, Schwule, Lesben, Asexualität, Pansexualität und Polyamorie hinzu. Ein Pluszeichen wird oft zu Varianten des Akronyms hinzugefügt, um weitere Identitäten einzubeziehen.'
@@ -242,7 +242,7 @@ glossary:
       definition: 'Jemand, dessen <a href="#Gender Identity">Geschlechtsidentität</a> von dem abweicht, was typischerweise mit dem bei der Geburt zugewiesenen Geschlecht verbunden ist. Transgender impliziert keine Form von sexueller Orientierung. Oft abgekürzt als trans.'
     white-privilege:
       title: 'Weißes Privileg'
-      definition: 'Bezieht sich auf den ungefragten und unverdienten Satz von Vorteilen, Ansprüchen, Leistungen und Entscheidungen, die Menschen allein deshalb gewährt werden, weil sie "weiß" sind, insbesondere wenn sie sich sonst unter denselben sozialen, politischen oder wirtschaftlichen Umständen befinden.'
+      definition: 'Bezieht sich auf den ungefragten und unverdienten Menge von Vorteilen, Ansprüchen, Leistungen und Entscheidungsbefugnissen, die Menschen allein deshalb gewährt werden, weil sie "weiß" sind, insbesondere wenn sie sich sonst unter denselben sozialen, politischen oder wirtschaftlichen Umständen befinden.'
 
 resources:
   subtitle: 'Setzen Sie Ihr'
