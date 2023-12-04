@@ -25,7 +25,7 @@ contribute:
   roles:
     ambassador:
       title: 'Embajador'
-      description: 'Tomé el entrenamiento de Embajador para la Inclusión y promuevo la diversidad, equidad e inclusión.'
+      description: 'Hice el entrenamiento de Embajador para la Inclusión y promuevo la diversidad, equidad e inclusión.'
       explanation: ''
     photographer:
       title: 'Fotógrafo'
@@ -68,7 +68,7 @@ contribute:
       description: 'Me aseguro de que nuestro mensaje sea inclusivo.'
       explanation: ''
     sharer:
-      title: 'Compartidor'
+      title: 'Divulgador'
       description: 'Comparto recursos de diversidad, equidad e inclusión con colegas.'
       explanation: ''
     ally:
@@ -129,7 +129,7 @@ glossary:
   welcome: '¿No estás seguro de lo que significan algunos términos? ¡No hay problema! En esta vista general encontrarás muchos términos que puedes encontrar dentro de tu organización.'
   placeholder: 'Escribe aquí para filtrar el glosario'
   search: 'Buscar en el glosario'
-  go-to: 'Go to'
+  go-to: 'ir a'
   definitions:
     ableism:
       title: 'Ableísmo'
