@@ -1,0 +1,258 @@
+menu:
+  logo-alt: '4 abstracte mensen'
+  aria-label: 'Menuknop'
+  home: 'Home'
+  contribute: 'Bijdragen'
+  glossary: 'Woordenlijst'
+  resources: 'Bronnen'
+  language: 'Taal selecteren'
+index:
+  page-title: 'DEI@Nedap'
+  subtitle: 'Samen'
+  title: 'Diversiteit <br> & Inclusie'
+  welcome: 'Diversiteit en Inclusie zijn essentieel voor het bevorderen van een meer rechtvaardige en harmonieuze werkomgeving. Deze app is jouw toegangsbewijs om een actieve bondgenoot te worden op het gebied van diversiteit en inclusie!'
+  button: 'Begin nu!'
+contribute:
+  subtitle: 'Zo word jij'
+  title: 'Een Bondgenoot'
+  welcome: "Hier kun je verschillende manieren ontdekken om bij te dragen aan Diversiteit, Gelijkheid en Inclusie (DEI) binnen jouw organisatie. Als je een rol vindt die bij je past, kun je deze toevoegen aan 'Mijn rollen'."
+  my-roles: 'Mijn Rollen'
+  no-roles: 'Je hebt nog geen rollen toegevoegd, kijk hieronder om te zien wat je kunt bijdragen.'
+  bingo-title: 'Verschillende manieren om bij te dragen'
+  cancel: 'Ik kom later terug'
+  add: 'Toevoegen aan mijn rollen'
+  remove: 'Verwijderen uit mijn rollen'
+  roles:
+    ambassador:
+      title: 'Ambassadeur'
+      description: 'Ik heb de Ambassadeur voor Inclusiviteitstraining gevolgd en promoot DEI'
+      explaination: ''
+    photographer:
+      title: 'Fotograaf'
+      description: 'Ik wijs niet-inclusieve afbeeldingen aan in onze marketingmaterialen'
+      explaination: ''
+    advocate:
+      title: 'Voorvechter'
+      description: "Ik moedig mijn collega's aan om actieve bondgenoten te worden"
+      explaination: ''
+    bookworm:
+      title: 'Boekenwurm'
+      description: 'Ik lees boeken over DEI'
+      explaination: ''
+    decider:
+      title: 'Beslisser'
+      description: 'Ik zoek diverse perspectieven bij besluitvorming'
+      explaination: ''
+    volunteer:
+      title: 'Vrijwilliger'
+      description: 'Ik doe vrijwilligerswerk voor een DEI-initiatief binnen of buiten de werkplek'
+      explaination: ''
+    listener:
+      title: 'Luisteraar'
+      description: 'Ik streef actief naar begrip voor anderen'
+      explaination: ''
+    speaker:
+      title: 'Spreker'
+      description: 'Ik verspreid de DEI-boodschap binnen ons bedrijf'
+      explaination: ''
+    celebrator:
+      title: 'Feestvierder'
+      description: 'Ik neem deel aan het vieren van culturele feestdagen of erfgoed'
+      explaination: ''
+    inspector:
+      title: 'Inspecteur'
+      description: 'Ik identificeer en pak toegankelijkheidsproblemen aan in onze producten en werkplek'
+      explaination: ''
+    wordsmith:
+      title: 'Woordkunstenaar'
+      description: 'Ik zorg ervoor dat onze boodschappen inclusief zijn'
+      explaination: ''
+    sharer:
+      title: 'Deler'
+      description: "Ik deel DEI-bronnen met collega's"
+      explaination: ''
+    ally:
+      title: 'Bondgenoot'
+      description: Ik versterk actief stemmen van ondervertegenwoordigden'
+      explaination: ''
+    protector:
+      title: 'Beschermer'
+      description: 'Ik spreek me uit als ik uitsluiting of respectloos gedrag opmerk'
+      explaination: ''
+    facilitator:
+      title: 'Facilitator'
+      description: 'Ik creëer een veilige ruimte voor mensen om hun perspectief te delen en samen te werken'
+      explaination: ''
+    accountant:
+      title: 'Accountant'
+      description: 'Ik houd leidinggevenden verantwoordelijk voor het uitleven van ons DEI-verhaal'
+      explaination: ''
+    mentor:
+      title: 'Mentor'
+      description: 'Ik ondersteun en mentor divers talent'
+      explaination: ''
+    recruiter:
+      title: 'Recruiter'
+      description: 'Ik gebruik een inclusief en objectief wervingsproces'
+      explaination: ''
+    encourager:
+      title: 'Aanmoediger'
+      description: 'Ik deel waardering voor het doen van DEI-werk'
+      explaination: ''
+    inquisitor:
+      title: 'Vragensteller'
+      description: 'Ik stel ongemakkelijke vragen als het gaat om de status quo'
+      explaination: ''
+    sponsor:
+      title: 'Sponsor'
+      description: 'Ik identificeer, ondersteun actief, en promoot divers talent'
+      explaination: ''
+    brainiac:
+      title: 'Brainiac'
+      description: 'Ik bevorder bewustwording voor mentale gezondheid'
+      explaination: ''
+    joiner:
+      title: 'Deelnemer'
+      description: 'Ik neem deel aan DEI-community-evenementen'
+      explaination: ''
+    student:
+      title: 'Student'
+      description: 'Ik leer meer over onbewuste vooroordelen en de impact ervan'
+      explaination: ''
+    globetrotter:
+      title: 'Globetrotter'
+      description: "Ik ga in gesprek met internationale collega's en ben nieuwsgierig naar hun perspectief"
+      explaination: ''
+
+glossary:
+  subtitle: 'Zie hier'
+  title: 'DEI-woordenlijst'
+  welcome: 'Weet je niet zeker wat sommige termen betekenen? Geen probleem! In dit overzicht vind je veel termen die je binnen jouw organisatie kunt tegenkomen.'
+  placeholder: 'Typ hier om de woordenlijst te filteren'
+  search: 'Woordenlijst doorzoeken'
+  go-to: 'Ga naar'
+  definitions:
+    ableism:
+      title: 'Validisme'
+      definition: 'Discriminatie tegen personen met mentale en/of fysieke beperkingen; sociale structuren die ten gunste zijn van mensen zonder beperkingen. Mensen wordt bepaalde veronderstelde capaciteiten, vaardigheden, of karakteroriëntaties toegekend of ontzegd.'
+    afab-amab:
+      title: 'AFAB / AMAB'
+      definition: 'Acroniemen om "bij geboorte het vrouwelijk geslacht toegekend" en "bij geboorte het mannelijk geslacht toegekend" aan te geven.'
+    bipoc:
+      title: 'BIPOC'
+      definition: 'Een acroniem voor Zwart, Inheems en Mensen van Kleur. De term is meer gebruikt en onder de aandacht gekomen in 2020 na de heropleving van Black Lives Matter tegen racisme en politiegeweld na de schietpartij op George Floyd. BIPOC is bedoeld om de bijzondere uitdagingen te benadrukken waarmee zwarte en inheemse mensen (in de VS en Canada) te maken hebben, en erkent dat niet alle mensen van kleur dezelfde mate van onrechtvaardigheid ervaren'
+    cisgender:
+      title: 'Cisgender'
+      definition: 'Een term die wordt gebruikt om een persoon te beschrijven wiens <a href="#Gender Identity">genderidentiteit</a> overeenkomt met hun bij de geboorte toegekend geslacht. Vaak afgekort tot cis.'
+    culture:
+      title: 'Cultuur'
+      definition: 'Een concept dat het sociale gedrag, instituties en normen omvat die worden aangetroffen in menselijke samenlevingen, evenals de kennis, overtuigingen, kunsten, wetten, gebruiken, capaciteiten en gewoonten van individuen in deze groepen. Cultuur komt vaak voort uit of wordt toegeschreven aan een specifieke regio of locatie.'
+    cultural-competence:
+      title: 'Culturele Competentie'
+      definition: 'Verwijst naar de kennis en het begrip van een individu of een organisatie van verschillende culturen en perspectieven. Het is een maatstaf voor het vermogen van een individu of een personeelsbestand om met mensen van verschillende nationaliteiten, etniciteiten, talen en religies samen te werken. Kortom, het is het vermogen om effectief te communiceren met mensen uit verschillende culturen.'
+    discrimination:
+      title: 'Discriminatie'
+      definition: 'Ongunstige of oneerlijke behandeling van mensen op basis van de groepen, klassen of andere categorieën waartoe ze behoren of worden waargenomen te behoren. Enkele voorbeelden van deze categorieën zijn etniciteit, kleur, religie, sociaaleconomische status, opleiding, geslacht, huwelijksstatus, politieke overtuiging, taal, leeftijd, geslacht, fysieke of mentale capaciteiten, seksuele oriëntatie of <a href="#Gender Identity">genderidentiteit</a>.'
+    diversity:
+      title: 'Diversiteit'
+      definition: 'Psychologische, fysieke en sociale verschillen die optreden bij alle individuen; inclusief maar niet beperkt tot ras, etniciteit, nationaliteit, religie, sociaaleconomische status, opleiding, huwelijksstatus, taal, leeftijd, geslacht, seksuele oriëntatie, mentale of fysieke bekwaamheid en leerstijlen. Een diverse groep, gemeenschap of organisatie is er een waarin een verscheidenheid aan sociale en culturele kenmerken bestaat.'
+    emotional-labor:
+      title: 'Emotionele Arbeid'
+      definition: "Het proces van het beheren van gevoelens en expressies om te voldoen aan de emotionele eisen van een baan. Meer specifiek wordt van werknemers verwacht dat ze hun persoonlijkheden reguleren tijdens interacties met klanten, collega's, cliënten en managers. Dit omvat analyse en besluitvorming met betrekking tot de expressie van emotie, of deze nu werkelijk wordt gevoeld of niet, evenals het tegenovergestelde: het onderdrukken van emoties die worden gevoeld maar niet worden uitgedrukt."
+    emotional-tax:
+      title: 'Emotionele Belasting'
+      definition: "De combinatie van opletten om zich te beschermen tegen vooroordelen en het gevoel anders te zijn dan collega's op het werk vanwege geslacht, ras en/of etniciteit, en de bijbehorende effecten op gezondheid, welzijn en vermogen om op het werk te gedijen. Het beïnvloedt met name werknemers uit minderheidsgroepen."
+    equality:
+      title: 'Gelijkheid'
+      definition: 'De staat van gelijkheid, vooral op het gebied van status, rechten en kansen. Gelijkheid betekent dat elk individu of elke groep mensen dezelfde middelen en kansen krijgt, ongeacht hun omstandigheden.'
+    equity:
+      title: 'Gelijkwaardigheid'
+      definition: 'Verwijst naar rechtvaardigheid in de manier waarop mensen worden behandeld. Gelijkheid zou individuen voorzien van dezelfde kansen of hulpmiddelen. Gelijkwaardigheid houdt daarentegen rekening met de behoeften van elk individu om toegang te waarborgen tot dezelfde kansen en resultaten.'
+    gender:
+      title: 'Gender'
+      definition: 'De sociaal geconstrueerde ideeën over het gedrag, de acties en rollen die een bepaald geslacht uitvoert.'
+    gender-expression:
+      title: 'Genderexpressie'
+      definition: 'Een term om te beschrijven hoe mensen extern communiceren of hun <a href="#Gender Identity">genderidentiteit</a> uitvoeren naar anderen.'
+    gender-identity:
+      title: 'Genderidentiteit'
+      definition: 'De persoonlijke beleving van iemands eigen geslacht. Vaak in relatie tot een geslachtsoppositie tussen mannelijkheid en vrouwelijkheid.'
+    gender-neutral:
+      title: 'Genderneutraal'
+      definition: 'Gebruikt om een unisex of all-gender inclusieve ruimte, taal, enz. aan te duiden. Bijvoorbeeld: een genderneutraal toilet is een toilet dat open is voor mensen van elke <a href="#Gender Identity">genderidentiteit</a> en -expressie.'
+    gender-expansive:
+      title: 'Gendervariant (gender-non-conformerend)'
+      definition: 'Gebruikt om degenen te beschrijven die hun <a href="#Gender Identity">genderidentiteit</a> zien als een van de vele mogelijke geslachten buiten strikt man of vrouw. Deze individuen hebben uitgebreide opvattingen over genderexpressie en -identiteit, verder dan wat wordt waargenomen als de verwachte geslachtsnormen voor hun samenleving of context. Sommige gendervariante individuen identificeren zich als man of vrouw, sommige identificeren zich als geen van beide, en anderen identificeren zich als een mix van beide.'
+    implicit-bias:
+      title: 'Impliciete Vooroordelen'
+      definition: 'Ook wel bekend als onbewuste of verborgen vooroordelen, zijn impliciete vooroordelen (negatieve) associaties die mensen onbewust hebben. Ze worden automatisch uitgedrukt, zonder bewustzijn. Impliciete vooroordelen beïnvloeden de houding en acties van mensen, waardoor er real-world implicaties ontstaan, zelfs als individuen zich er niet van bewust zijn dat deze vooroordelen in henzelf bestaan.'
+    inclusion:
+      title: 'Inclusie'
+      definition: 'De daad van het creëren van omgevingen waarin elk individu of elke groep zich welkom, gerespecteerd, ondersteund en gewaardeerd kan voelen om volledig deel te nemen. Een inclusief en gastvrij klimaat omarmt verschillen en biedt respect in woorden en daden voor alle mensen.'
+    intersectionality:
+      title: 'Intersectionaliteit'
+      definition: 'Een analytisch kader om te begrijpen hoe verschillende aspecten van iemands sociale en politieke identiteiten (bijv. geslacht, ras, klasse, seksualiteit, bekwaamheid, uiterlijk, enz.) samenkomen om unieke combinaties van discriminatie en privilege te creëren. Intersectionaliteit identificeert voordelen en nadelen die mensen voelen als gevolg van deze combinatie van factoren.'
+    latino-a:
+      title: 'Latino/a'
+      definition: 'Een individu afkomstig uit, of met een afkomst gerelateerd aan Latijns-Amerika.'
+    latinx:
+      title: 'Latinx'
+      definition: 'Een genderneutraal of non-binair alternatief voor Latino of Latina.'
+    lgbtq:
+      title: 'LHBTQIA+'
+      definition: 'Acroniem voor "Lesbisch, Homoseksueel, Biseksueel, Transgender, Intersekse, Queer en Aseksueel". De afkorting van de beweging breidde zich uit van homo en lesbisch naar LGBTQ, en sommigen voegden questioning, interseks, ally, panseksueel, en polyamoreus toe. Een plusteken wordt vaak toegevoegd aan varianten van het acroniem om andere identiteiten op te nemen.'
+    microaggressions:
+      title: 'Microagressies'
+      definition: 'De dagelijkse verbale en non-verbale kleinerende, negerende of beledigende opmerkingen, of ze nu opzettelijk zijn of niet, die vijandige, denigrerende of negatieve boodschappen communiceren naar mensen puur op basis van hun lidmaatschap van gemarginaliseerde groepen. Bijvoorbeeld het commentaar dat een "zwart" persoon "wit praat" als ze welbespraakt en eloquent zijn, of de straat oversteken om interactie met een bepaalde ethnische groep te vermijden.'
+    neurodiversity:
+      title: 'Neurodiversiteit'
+      definition: 'Verwijst naar de variatie in de menselijke hersenen met betrekking tot sociaal gedrag, leren, aandacht, stemming en andere mentale functies. Het erkent dat alle variaties in menselijke neurologische functie moeten worden gerespecteerd als slechts een andere manier van zijn, en dat neurologische verschillen zoals autisme en ADHD het gevolg zijn van normale/natuurlijke variaties in het menselijk genoom.'
+    non-binary:
+      title: 'Non-Binair'
+      definition: 'Een bijvoeglijk naamwoord dat een persoon beschrijft die zich niet uitsluitend identificeert als man of vrouw. Non-binaire mensen kunnen zich identificeren als zowel man als vrouw, ergens daartussenin, of volledig buiten deze categorieën vallen.'
+    oppression:
+      title: 'Onderdrukking'
+      definition: 'Een kwaadaardige of onrechtvaardige behandeling van, of uitoefening van macht over, een groep individuen. Onderdrukking duidt op een hiërarchische relatie waarin dominante of bevoorrechte groepen, vaak onbewust, profiteren van de ontmachtiging van ondergeschikte of getargete groepen.'
+    pansexuality:
+      title: 'Panseksualiteit'
+      definition: 'Een term die duidt op mensen die zich seksueel, emotioneel en spiritueel in staat voelen om verliefd te worden op alle geslachten.'
+    people-of-color:
+      title: 'Mensen van kleur'
+      definition: 'Een term die voornamelijk wordt gebruikt om elke persoon te beschrijven die niet als "wit" wordt beschouwd, meestal in de Verenigde Staten. De term benadrukt gemeenschappelijke ervaringen van systemisch racisme waarmee sommige gemeenschappen worden geconfronteerd.'
+    privilege:
+      title: 'Privilege'
+      definition: 'Ongewenste sociale macht verleend door formele en informele instellingen van de samenleving aan alle leden van een dominante groep (bijv. <a href="#White Privilege">wit privilege</a>, mannelijk privilege, enz.). Privilege is meestal onzichtbaar voor degenen die het hebben, maar het plaatst hen toch in een voordeel ten opzichte van degenen die het niet hebben. Individuen kunnen bevoorrecht zijn op het ene gebied, en niet op het andere gebied.'
+    psychological-safety:
+      title: 'Psychologische Veiligheid'
+      definition: 'Het geloof dat men niet gestraft of vernederd zal worden voor het uiten van ideeën, vragen, zorgen of fouten. In psychologisch veilige werkomgevingen voelen werknemers zich gemachtigd om een idee of bijdrage volledig uit te drukken, zonder angst voor negatieve gevolgen voor henzelf, hun status of hun carrière.'
+    queer:
+      title: 'Queer'
+      definition: 'Een overkoepelende term voor mensen die niet heteroseksueel zijn of niet <a href="#Cisgender">cisgender</a> zijn.'
+    race:
+      title: 'Ras'
+      definition: 'Een categorisering van mensen op basis van gedeelde fysieke of sociale kenmerken in groepen die over het algemeen worden beschouwd als onderscheidend binnen een gegeven samenleving. Ras heeft geen inherent fysieke of biologische betekenis en is in plaats daarvan een identiteit die wordt toegewezen op basis van regels die door de samenleving zijn gemaakt.'
+    racism:
+      title: 'Racisme'
+      definition: 'Individuele en institutionele praktijken en beleidsmaatregelen gebaseerd op de overtuiging dat een bepaald ras superieur is aan andere. Dit leidt vaak tot het ontzeggen van burgerlijke vrijheden, rechten en andere middelen voor bepaalde individuen en groepen , waardoor kansen op sociale, educatieve en politieke vooruitgang worden belemmerd.'
+    social-justice:
+      title: 'Sociale Gerechtigheid'
+      definition: 'Een visie van de samenleving waarin de verdeling van middelen rechtvaardig is en alle leden fysiek en psychologisch veilig en beschermd zijn.'
+    transgender:
+      title: 'Transgender'
+      definition: 'Iemand wiens <a href="#Gender Identity">genderidentiteit</a> verschilt van wat typisch wordt geassocieerd met het geslacht dat bij de geboorte is toegekend. Transgender impliceert geen enkele vorm van seksuele geaardheid. Vaak afgekort tot trans.'
+    white-privilege:
+      title: 'Wit Privilege'
+      definition: 'Verwijst naar de onbetwiste en onverdiende reeks voordelen, aanspraken, voordelen en keuzes die aan mensen worden verleend alleen omdat ze "wit" zijn, vooral als ze anderszins onder dezelfde sociale, politieke of economische omstandigheden verkeren.'
+
+
+resources:
+  subtitle: 'Ga verder met je'
+  title: 'Leerproces'
+  welcome: 'Leer meer over verschillende onderwerpen en vind het medium dat je bevalt.'
+  watch: 'Bekijk'
+  listen: 'Luister'
+  read: 'Lees'
+  diversity: 'Diversiteit op de werkvloer'
+  design: 'Inclusief ontwerp'
+  types: 'Soorten Diversiteit / Persoonlijke verhalen'
+  community: 'Community building'
