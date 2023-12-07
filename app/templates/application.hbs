@@ -36,9 +36,16 @@
   <mmw.Content class="mobile-container">
     <div class="mobile-bar">
       <LinkTo @route="index"><img src="logo.svg" alt="{{t "menu.logo-alt"}}"></LinkTo>
-      <mmw.Toggle class="menu-button" aria-label="{{t "menu.aria-label"}}">
-        <FaIcon @icon="bars"  alt="Hamburger menu"/>
-      </mmw.Toggle>
+      <div>
+        <select aria-label={{t "menu.language"}} name="locale" {{on 'change' this.changeLocale}}>
+            {{#each this.locales as |model|}}
+            <option selected={{if (eq model this.activeLocale) "selected"}} value={{model}}>{{countryflag model}} {{language model}}</option>
+            {{/each}}
+          </select>
+        <mmw.Toggle class="menu-button" aria-label="{{t "menu.aria-label"}}">
+          <FaIcon @icon="bars"  alt="Hamburger menu"/>
+        </mmw.Toggle>
+      </div>
     </div>
     {{outlet}}
   </mmw.Content>

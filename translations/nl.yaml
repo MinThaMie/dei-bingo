@@ -26,103 +26,103 @@ contribute:
     ambassador:
       title: 'Ambassadeur'
       description: 'Ik heb de Ambassadeur voor Inclusiviteitstraining gevolgd en promoot DEI'
-      explaination: ''
+      explanation: ''
     photographer:
       title: 'Fotograaf'
       description: 'Ik wijs niet-inclusieve afbeeldingen aan in onze marketingmaterialen'
-      explaination: ''
+      explanation: ''
     advocate:
       title: 'Voorvechter'
       description: "Ik moedig mijn collega's aan om actieve bondgenoten te worden"
-      explaination: ''
+      explanation: ''
     bookworm:
       title: 'Boekenwurm'
       description: 'Ik lees boeken over DEI'
-      explaination: ''
+      explanation: ''
     decider:
       title: 'Beslisser'
       description: 'Ik zoek diverse perspectieven bij besluitvorming'
-      explaination: ''
+      explanation: ''
     volunteer:
       title: 'Vrijwilliger'
       description: 'Ik doe vrijwilligerswerk voor een DEI-initiatief binnen of buiten de werkplek'
-      explaination: ''
+      explanation: ''
     listener:
       title: 'Luisteraar'
       description: 'Ik streef actief naar begrip voor anderen'
-      explaination: ''
+      explanation: ''
     speaker:
       title: 'Spreker'
       description: 'Ik verspreid de DEI-boodschap binnen ons bedrijf'
-      explaination: ''
+      explanation: ''
     celebrator:
       title: 'Feestvierder'
       description: 'Ik neem deel aan het vieren van culturele feestdagen of erfgoed'
-      explaination: ''
+      explanation: ''
     inspector:
       title: 'Inspecteur'
       description: 'Ik identificeer en pak toegankelijkheidsproblemen aan in onze producten en werkplek'
-      explaination: ''
+      explanation: ''
     wordsmith:
       title: 'Woordkunstenaar'
       description: 'Ik zorg ervoor dat onze boodschappen inclusief zijn'
-      explaination: ''
+      explanation: ''
     sharer:
       title: 'Deler'
       description: "Ik deel DEI-bronnen met collega's"
-      explaination: ''
+      explanation: ''
     ally:
       title: 'Bondgenoot'
       description: Ik versterk actief stemmen van ondervertegenwoordigden'
-      explaination: ''
+      explanation: ''
     protector:
       title: 'Beschermer'
       description: 'Ik spreek me uit als ik uitsluiting of respectloos gedrag opmerk'
-      explaination: ''
+      explanation: ''
     facilitator:
       title: 'Facilitator'
       description: 'Ik creëer een veilige ruimte voor mensen om hun perspectief te delen en samen te werken'
-      explaination: ''
+      explanation: ''
     accountant:
       title: 'Accountant'
       description: 'Ik houd leidinggevenden verantwoordelijk voor het uitleven van ons DEI-verhaal'
-      explaination: ''
+      explanation: ''
     mentor:
       title: 'Mentor'
       description: 'Ik ondersteun en mentor divers talent'
-      explaination: ''
+      explanation: ''
     recruiter:
       title: 'Recruiter'
       description: 'Ik gebruik een inclusief en objectief wervingsproces'
-      explaination: ''
+      explanation: ''
     encourager:
       title: 'Aanmoediger'
       description: 'Ik deel waardering voor het doen van DEI-werk'
-      explaination: ''
+      explanation: ''
     inquisitor:
       title: 'Vragensteller'
       description: 'Ik stel ongemakkelijke vragen als het gaat om de status quo'
-      explaination: ''
+      explanation: ''
     sponsor:
       title: 'Sponsor'
       description: 'Ik identificeer, ondersteun actief, en promoot divers talent'
-      explaination: ''
+      explanation: ''
     brainiac:
       title: 'Brainiac'
       description: 'Ik bevorder bewustwording voor mentale gezondheid'
-      explaination: ''
+      explanation: ''
     joiner:
       title: 'Deelnemer'
       description: 'Ik neem deel aan DEI-community-evenementen'
-      explaination: ''
+      explanation: ''
     student:
       title: 'Student'
       description: 'Ik leer meer over onbewuste vooroordelen en de impact ervan'
-      explaination: ''
+      explanation: ''
     globetrotter:
       title: 'Globetrotter'
       description: "Ik ga in gesprek met internationale collega's en ben nieuwsgierig naar hun perspectief"
-      explaination: ''
+      explanation: ''
 
 glossary:
   subtitle: 'Zie hier'
