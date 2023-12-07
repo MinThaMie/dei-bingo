@@ -1,7 +1,7 @@
-{{page-title "Home"}}
+{{page-title (t "menu.home")}}
 <div class="index-container">
-<Callout class="landing-callout" @subtitle="Together">Diversity <br>& Inclusion</Callout>
-<p class="intro">Diversity and Inclusion are essential for fostering a more equitable and harmonious workplace. This app is your ticket to becoming an active ally in the realm of diversity and inclusion!</p>
-<LinkTo class="button button-index" @route="contribute">Start now!</LinkTo>
+<Callout class="landing-callout" @subtitle="{{t 'index.subtitle'}}">{{t "index.title" htmlSafe=true}}</Callout>
+<p class="intro">{{t "index.welcome"}}</p>
+<LinkTo class="button button-index" @route="contribute">{{t "index.button"}}</LinkTo>
 </div>
 {{!-- {{svg-jar 'landscape-illustration' class="large-illustration"}} --}}

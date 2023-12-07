@@ -1,7 +1,8 @@
 import Controller from '@ember/controller';
 import { tracked } from '@glimmer/tracking';
-
+import { service } from '@ember/service';
 export default class GlossaryController extends Controller {
+  @service intl;
   @tracked query = '';
 
   get results() {
@@ -16,13 +17,23 @@ export default class GlossaryController extends Controller {
       });
     }
     const caps = [];
-    return model.map((e) => {
-      if (caps.includes(e.title[0])) {
-        return { ...e, caps: '' };
-      } else {
-        caps.push(e.title[0]);
-        return { ...e, caps: e.title[0] };
-      }
-    });
+    return model
+      .sort((a, b) =>
+        this.intl
+          .t(a.title)
+          .localeCompare(this.intl.t(b.title), localStorage.getItem('locale')),
+      )
+      .map((e) => {
+        if (caps.includes(this.intl.t(e.title)[0])) {
+          return { ...e, link: this.intl.lookup(e.title, 'en'), caps: '' };
+        } else {
+          caps.push(this.intl.t(e.title)[0]);
+          return {
+            ...e,
+            link: this.intl.lookup(e.title, 'en'),
+            caps: this.intl.t(e.title)[0],
+          };
+        }
+      });
   }
 }

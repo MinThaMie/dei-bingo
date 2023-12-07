@@ -1,21 +1,28 @@
-{{page-title "DEI@Nedap"}}
+{{page-title (t "index.page-title")}}
 
 {{#if (media 'isDesktop')}}
 <div class="navbar">
-  <LinkTo @route="index"><img src="logo.svg" alt="4 abstract people"></LinkTo>
+  <LinkTo @route="index"><img src="logo.svg" alt="{{t "menu.logo-alt"}}"></LinkTo>
   <nav>
     <ul>
       <li>
-        <LinkTo @route="index">Home</LinkTo>
+        <LinkTo @route="index">{{t "menu.home"}}</LinkTo>
       </li>
       <li>
-        <LinkTo @route="contribute">Contribute</LinkTo>
+        <LinkTo @route="contribute">{{t "menu.contribute"}}</LinkTo>
       </li>
       <li>
-        <LinkTo @route="glossary">Glossary</LinkTo>
+        <LinkTo @route="glossary">{{t "menu.glossary"}}</LinkTo>
       </li>
       <li>
-        <LinkTo @route="resources">Resources</LinkTo>
+        <LinkTo @route="resources">{{t "menu.resources"}}</LinkTo>
+      </li>
+      <li>
+        <select aria-label={{t "menu.language"}} name="locale" {{on 'change' this.changeLocale}}>
+          {{#each this.locales as |model|}}
+          <option selected={{if (eq model this.activeLocale) "selected"}} value={{model}}>{{countryflag model}} {{language model}}</option>
+          {{/each}}
+        </select>
       </li>
     </ul>
   </nav>
@@ -28,10 +35,17 @@
 
   <mmw.Content class="mobile-container">
     <div class="mobile-bar">
-      <LinkTo @route="index"><img src="logo.svg" alt="4 abstract people"></LinkTo>
-      <mmw.Toggle class="menu-button" aria-label="menu button">
-        <FaIcon @icon="bars"  alt="Hamburger menu"/>
-      </mmw.Toggle>
+      <LinkTo @route="index"><img src="logo.svg" alt="{{t "menu.logo-alt"}}"></LinkTo>
+      <div>
+        <select aria-label={{t "menu.language"}} name="locale" {{on 'change' this.changeLocale}}>
+            {{#each this.locales as |model|}}
+            <option selected={{if (eq model this.activeLocale) "selected"}} value={{model}}>{{countryflag model}} {{language model}}</option>
+            {{/each}}
+          </select>
+        <mmw.Toggle class="menu-button" aria-label="{{t "menu.aria-label"}}">
+          <FaIcon @icon="bars"  alt="Hamburger menu"/>
+        </mmw.Toggle>
+      </div>
     </div>
     {{outlet}}
   </mmw.Content>
@@ -41,16 +55,16 @@
       <nav>
         <ul>
           <li>
-            <mm.LinkTo @route="index">Home</mm.LinkTo>
+            <mm.LinkTo @route="index">{{t "menu.home"}}</mm.LinkTo>
           </li>
           <li>
-            <mm.LinkTo @route="contribute">Contribute</mm.LinkTo>
+            <mm.LinkTo @route="contribute">{{t "menu.contribute"}}</mm.LinkTo>
           </li>
           <li>
-            <mm.LinkTo @route="glossary">Glossary</mm.LinkTo>
+            <mm.LinkTo @route="glossary">{{t "menu.glossary"}}</mm.LinkTo>
           </li>
           <li>
-            <mm.LinkTo @route="resources">Resources</mm.LinkTo>
+            <mm.LinkTo @route="resources">{{t "menu.resources"}}</mm.LinkTo>
           </li>
         </ul>
       </nav>

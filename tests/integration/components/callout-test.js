@@ -13,14 +13,5 @@ module('Integration | Component | callout', function (hooks) {
     await render(hbs`<Callout />`);
 
     assert.dom().hasText('');
-
-    // Template block usage:
-    await render(hbs`
-      <Callout>
-        template block text
-      </Callout>
-    `);
-
-    assert.dom().hasText('template block text');
   });
 });

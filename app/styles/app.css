@@ -47,6 +47,21 @@ p.intro {
   line-height: 1.5em;
 }
 
+select {
+  border: 2px solid transparent;
+  padding: 4px 8px;
+  border-radius: 8px;
+  background-color: transparent;
+  font-size: 1.25em;
+  font-weight: 300;
+  cursor: pointer;
+  text-align: right;
+}
+
+select:focus {
+  border: 2px solid var(--primary-hover-color);
+}
+
 nav li {
   list-style-type: none;
 }
