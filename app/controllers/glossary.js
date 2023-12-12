@@ -21,7 +21,7 @@ export default class GlossaryController extends Controller {
       .sort((a, b) =>
         this.intl
           .t(a.title)
-          .localeCompare(this.intl.t(b.title), localStorage.getItem('locale')),
+          .localeCompare(this.intl.t(b.title), this.intl.primaryLocale),
       )
       .map((e) => {
         if (caps.includes(this.intl.t(e.title)[0])) {
