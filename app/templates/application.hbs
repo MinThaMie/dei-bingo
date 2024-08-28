@@ -18,6 +18,9 @@
         <LinkTo @route="resources">{{t "menu.resources"}}</LinkTo>
       </li>
       <li>
+        <LinkTo @route="trusted-ten">{{t "menu.ten"}}</LinkTo>
+      </li>
+      <li>
         <select aria-label={{t "menu.language"}} name="locale" {{on 'change' this.changeLocale}}>
           {{#each this.locales as |model|}}
           <option selected={{if (eq model this.activeLocale) "selected"}} value={{model}}>{{countryflag model}} {{language model}}</option>
@@ -65,6 +68,9 @@
           </li>
           <li>
             <mm.LinkTo @route="resources">{{t "menu.resources"}}</mm.LinkTo>
+          </li>
+          <li>
+            <mm.LinkTo @route="trusted-ten">{{t "menu.ten"}}</mm.LinkTo>
           </li>
         </ul>
       </nav>

@@ -5,6 +5,7 @@ menu:
   contribute: "Contribuer"
   glossary: "Glossaire"
   resources: "Ressources"
+  ten: 'Les Dix de Confiance'
   language: 'Sélectionner la langue'
 index:
   page-title: "DEI@Nedap"
@@ -255,3 +256,28 @@ resources:
   design: "Conception inclusive"
   types: "Types de diversité / Histoires personnelles"
   community: "Construction de communauté"
+
+ten:
+  pagetitle: 'Les Dix de Confiance'
+  subtitle: 'Confiance'
+  title: 'Dix'
+  intro: 'Un exercice pour réfléchir à votre cercle de confiance et prendre conscience de ceux qui vous entourent.<br /><br />Choisissez 10 de vos "personnes de référence" au travail/école/dans un autre groupe - considérez-les comme votre cercle intime - les personnes que vous considérez comme dignes de confiance et dont vous cherchez le conseil pour prendre des décisions. Remplissez leurs noms et cochez les cases lorsque cette personne se trouve dans la même catégorie que vous.'
+  name: 'Nom/Initiales'
+  gender: 'Genre'
+  race: 'Race/Ethnicité'
+  age: 'Âge'
+  sex: 'Orientation sexuelle'
+  ed: "Niveau d'éducation"
+  relation: 'Statut relationnel'
+  language: 'Langue maternelle'
+  reflection: 'Réflexion'
+  reflection-text: "Une fois que vous avez rempli la carte entière, réfléchissez aux points suivants :
+  <ul>
+  <li>Quelle est la diversité de votre cercle de confiance ?
+    <ul>
+      <li>Si vous êtes un homme, la plupart de vos personnes de confiance sont-elles également des hommes ? Si vous êtes une femme, la majorité de vos personnes de confiance sont-elles des femmes ?</li>
+      <li>Les personnes en qui vous avez confiance vous ressemblent-elles en termes d'âge, de race, de niveau d'éducation ou parlent-elles majoritairement votre langue maternelle ?</li>
+    </ul>
+  </li>
+  <li>Comment pourriez-vous diversifier votre cercle intime de confidents ?</li>
+  <li>En ce qui concerne une stratégie d'entreprise, comment l'adoption de perspectives diverses pourrait-elle avoir un impact sur : l'empathie envers les clients, la vision du monde des marchés, les clients potentiels et les opportunités ?</li>"

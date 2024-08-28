@@ -1,0 +1,40 @@
+.ten-grid {
+  max-width: 860px;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: 56px repeat(10, 28px);
+  gap: 8px;
+}
+
+.ten-grid > p {
+  text-align: center;
+  vertical-align: bottom;
+}
+
+input[type="checkbox"] {
+  appearance: none;
+  cursor: pointer;
+  justify-self: center;
+  align-self: center;
+  margin: 0;
+  width: 1.15em;
+  height: 1.15em;
+  border: 0.15em solid grey;
+  border-radius: 0.15em;
+  transform: translateY(-0.075em);
+  display: grid;
+  place-content: center;
+}
+
+input[type="checkbox"]::before {
+  content: "";
+  width: 0.65em;
+  height: 0.65em;
+  transform: scale(0);
+  transition: 120ms transform ease-in-out;
+  box-shadow: inset 1em 1em var(--primary-color);
+}
+
+input[type="checkbox"]:checked::before {
+  transform: scale(1);
+}

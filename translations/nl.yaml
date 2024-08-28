@@ -6,6 +6,7 @@ menu:
   glossary: 'Woordenlijst'
   resources: 'Bronnen'
   language: 'Taal selecteren'
+  ten: 'Vertrouwde Tien'
 index:
   page-title: 'DEI@Nedap'
   subtitle: 'Samen'
@@ -256,3 +257,28 @@ resources:
   design: 'Inclusief ontwerp'
   types: 'Soorten Diversiteit / Persoonlijke verhalen'
   community: 'Community building'
+
+ten:
+  pagetitle: 'Vertrouwde Tien'
+  subtitle: 'Vertrouwde'
+  title: 'Tien'
+  intro: 'Een oefening om na te denken over je vertrouwde kring en bewustwording te kweken van wie er om je heen is.<br /><br />Kies 10 van je "go-to" mensen op het werk/school/een andere groep - beschouw hen als je innerlijke kring - de mensen die je als betrouwbaar beschouwt en wiens advies je zoekt bij het nemen van beslissingen. Vul hun namen in en vink de vakjes aan wanneer die persoon in dezelfde categorie als jij valt.'
+  name: 'Naam/Initialen'
+  gender: 'Geslacht'
+  race: 'Ras/Etniciteit'
+  age: 'Leeftijd'
+  sex: 'Seksuele geaardheid'
+  ed: 'Opleidingsniveau'
+  relation: 'Relatiestatus'
+  language: 'Moedertaal'
+  reflection: 'Reflectie'
+  reflection-text: 'Wanneer je de hele kaart hebt ingevuld, reflecteer dan op het volgende:
+  <ul>
+  <li>Hoe divers is je vertrouwenskring?
+    <ul>
+      <li>Als je een man bent, zijn de meeste van je vertrouwelingen dan ook mannen? Als je een vrouw bent, zijn de meeste van je vertrouwelingen dan vrouwen?</li>
+      <li>Lijken degenen die je vertrouwt op jou qua leeftijd, ras, opleidingsniveau of spreken ze grotendeels jouw moedertaal?</li>
+    </ul>
+  </li>
+  <li>Hoe zou je je innerlijke kring van vertrouwelingen kunnen diversifiëren?</li>
+  <li>Met betrekking tot een bedrijfsstrategie, hoe zou het omarmen van diverse perspectieven een impact kunnen hebben op: klantempathie, wereldbeeld van markten, potentiële klanten en kansen?</li>'

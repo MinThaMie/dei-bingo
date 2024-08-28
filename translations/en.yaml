@@ -5,6 +5,7 @@ menu:
   contribute: 'Contribute'
   glossary: 'Glossary'
   resources: 'Resources'
+  ten: 'Trusted Ten'
   language: 'Select language'
 index:
   page-title: 'DEI@Nedap'
@@ -255,3 +256,28 @@ resources:
   design: 'Inclusive design'
   types: 'Types of Diversity / Personal stories'
   community: 'Community building'
+
+ten:
+  pagetitle: 'Trusted Ten'
+  subtitle: 'Trusted'
+  title: 'Ten'
+  intro: 'An exercise to look and reflect on your trusted circle and cultivate awareness of who is around you.<br /><br />Choose 10 of your "go-to "people at work/school/another group - think of them as your inner circle - the people you consider trustworthy and whose counsel you seek in making decisions. Fill in their names and check the boxes when that person falls in the same category as you.'
+  name: 'Name/Initials'
+  gender: 'Gender'
+  race: 'Race/Ethnicity'
+  age: 'Age'
+  sex: 'Sexual Orientation'
+  ed: 'Education Level'
+  relation: 'Relationship Status'
+  language: 'Native Language'
+  reflection: 'Reflection'
+  reflection-text: 'When you have filled in the whole card reflect on the following:
+  <ul>
+  <li>How diverse is your circle of trust?
+    <ul>
+      <li>If you are male, are most of your trusted male too? If you are female, are the majority of your trusted females?</li>
+      <li>Do those you trust look similar to you in age or race or education level or speaks the majority your native language?</li>
+    </ul>
+  </li>
+  <li>How might you diversify your inner circle of confidants?</li>
+  <li>In regards to a business strategy, how might embracing diverse perspectives, have an impact on: customer empathy, worldview of markets, potential customers and opportunities?</li>'

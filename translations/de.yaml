@@ -5,6 +5,7 @@ menu:
   contribute: 'Beitragen'
   glossary: 'Glossar'
   resources: 'Ressourcen'
+  ten: 'Vertraute Zehn'
   language: 'Sprache auswählen'
 index:
   page-title: 'DEI@Nedap'
@@ -255,3 +256,28 @@ resources:
   design: 'Inklusives Design'
   types: 'Arten der Vielfalt / Persönliche Geschichten'
   community: 'Gemeinschaftsaufbau'
+
+ten:
+  pagetitle: 'Vertraute Zehn'
+  subtitle: 'Vertraute'
+  title: 'Zehn'
+  intro: 'Eine Übung, um über deinen vertrauten Kreis nachzudenken und das Bewusstsein dafür zu schärfen, wer dich umgibt.<br /><br />Wähle 10 deiner "go-to" Personen bei der Arbeit/Schule/anderen Gruppen - betrachte sie als deinen inneren Kreis - die Menschen, die du als vertrauenswürdig ansiehst und deren Rat du bei Entscheidungen suchst. Fülle ihre Namen aus und markiere die Kästchen, wenn diese Person in dieselbe Kategorie wie du fällt.'
+  name: 'Name/Initialen'
+  gender: 'Geschlecht'
+  race: 'Rasse/Ethnizität'
+  age: 'Alter'
+  sex: 'Sexuelle Orientierung'
+  ed: 'Bildungsniveau'
+  relation: 'Beziehungsstatus'
+  language: 'Muttersprache'
+  reflection: 'Reflexion'
+  reflection-text: 'Wenn du die gesamte Karte ausgefüllt hast, reflektiere über Folgendes:
+  <ul>
+  <li>Wie divers ist dein Vertrauenskreis?
+    <ul>
+      <li>Wenn du ein Mann bist, sind die meisten deiner Vertrauenspersonen auch Männer? Wenn du eine Frau bist, sind die meisten deiner Vertrauenspersonen Frauen?</li>
+      <li>Sehen diejenigen, denen du vertraust, dir ähnlich in Bezug auf Alter, Rasse, Bildungsniveau oder sprechen sie größtenteils deine Muttersprache?</li>
+    </ul>
+  </li>
+  <li>Wie könntest du deinen inneren Kreis der Vertrauten diversifizieren?</li>
+  <li>In Bezug auf eine Geschäftsstrategie, wie könnte die Einbeziehung unterschiedlicher Perspektiven Auswirkungen haben auf: Kundenempathie, Weltbild von Märkten, potenzielle Kunden und Chancen?</li>'

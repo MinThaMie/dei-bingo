@@ -10,4 +10,5 @@ Router.map(function () {
   this.route('glossary');
   this.route('contribute');
   this.route('resources');
+  this.route('trusted-ten');
 });

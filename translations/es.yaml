@@ -5,6 +5,7 @@ menu:
   contribute: 'Contribuir'
   glossary: 'Glosario'
   resources: 'Recursos'
+  ten: 'Los Diez de Confianza'
   language: 'Seleccionar idioma'
 index:
   page-title: 'DEI@Nedap'
@@ -255,3 +256,29 @@ resources:
   design: 'Diseño inclusivo'
   types: 'Tipos de diversidad / Historias personales'
   community: 'Construcción de comunidad'
+
+ten:
+  pagetitle: 'Los Diez de Confianza'
+  subtitle: 'Confianza'
+  title: 'Diez'
+  intro: 'Un ejercicio para reflexionar sobre tu círculo de confianza y cultivar la conciencia de quién te rodea.<br /><br />Elige 10 de tus "personas de referencia" en el trabajo/escuela/otro grupo - considéralos como tu círculo íntimo - las personas que consideras confiables y cuyo consejo buscas para tomar decisiones. Llena sus nombres y marca las casillas cuando esa persona esté en la misma categoría que tú.'
+  name: 'Nombre/Iniciales'
+  gender: 'Género'
+  race: 'Raza/Etnicidad'
+  age: 'Edad'
+  sex: 'Orientación Sexual'
+  ed: 'Nivel Educativo'
+  relation: 'Estado Civil'
+  language: 'Idioma Nativo'
+  reflection: 'Reflexión'
+  reflection-text: 'Cuando hayas completado toda la tarjeta, reflexiona sobre lo siguiente:
+  <ul>
+  <li>¿Qué tan diverso es tu círculo de confianza?
+    <ul>
+      <li>Si eres hombre, ¿la mayoría de tus personas de confianza también son hombres? Si eres mujer, ¿la mayoría de tus personas de confianza son mujeres?</li>
+      <li>¿Las personas en quienes confías se parecen a ti en términos de edad, raza, nivel educativo o hablan en su mayoría tu idioma nativo?</li>
+    </ul>
+  </li>
+  <li>¿Cómo podrías diversificar tu círculo íntimo de confidentes?</li>
+  <li>En cuanto a una estrategia empresarial, ¿cómo podría la adopción de perspectivas diversas impactar en: la empatía con los clientes, la visión de los mercados, los clientes potenciales y las oportunidades?</li>'
+
