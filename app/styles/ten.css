@@ -1,7 +1,7 @@
 .ten-grid {
   max-width: 860px;
   display: grid;
-  grid-template-columns: repeat(8, 1fr);
+  grid-template-columns: repeat(8, minmax(90px, 1fr));
   grid-template-rows: 56px repeat(10, 28px);
   gap: 8px;
 }
@@ -9,6 +9,12 @@
 .ten-grid > p {
   text-align: center;
   vertical-align: bottom;
+}
+
+@media screen and (width < 1000px) {
+  .ten-grid {
+    overflow-x: scroll;
+  }
 }
 
 input[type="checkbox"] {
