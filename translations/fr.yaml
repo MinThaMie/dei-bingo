@@ -281,3 +281,35 @@ ten:
   </li>
   <li>Comment pourriez-vous diversifier votre cercle intime de confidents ?</li>
   <li>En ce qui concerne une stratégie d'entreprise, comment l'adoption de perspectives diverses pourrait-elle avoir un impact sur : l'empathie envers les clients, la vision du monde des marchés, les clients potentiels et les opportunités ?</li>"
+
+walk:
+  pagetitle: 'Privilege Walk'
+  subtitle: 'Privilege'
+  title: 'Walk'
+  intro: "Un exercice pour réfléchir à la manière dont l'identité, l'accès et le contexte façonnent votre expérience au travail et au-delà.<br /><br />Parcourez les affirmations à votre rythme et décidez si elles s'appliquent à vous. Soyez attentif aux situations où vous ressentez de la facilité ou un avantage, ainsi qu'à celles où vous devez fournir un effort supplémentaire."
+  applies: "S'applique à moi"
+  no-apply: "Ne s'applique pas à moi"
+  reflection-text: "Lorsque vous avez terminé les affirmations, réfléchissez aux points suivants :
+  <ul>
+    <li>Où avez-vous ressenti de la facilité ou un avantage ?</li>
+    <li>Où avez-vous ressenti des obstacles, un effort supplémentaire ou de la vulnérabilité ?</li>
+    <li>Dans quels domaines bénéficiez-vous de privilèges, et dans quels domaines non ?</li>
+    <li>Comment votre expérience pourrait-elle évoluer dans un autre pays, une autre équipe ou un autre contexte ?</li>
+    <li>Comment pouvez-vous utiliser vos privilèges pour créer plus d'espace, d'accès ou de soutien pour les autres ?</li>"
+  statements:
+    1: "1. Je peux facilement participer à des réunions en présentiel où des décisions importantes sont prises."
+    2: "2. La majorité de la communication interne se fait dans ma langue maternelle."
+    3: "3. Je dois rarement adapter mes horaires de travail en raison des différences de fuseaux horaires."
+    4: "4. Je me sens à l'aise pour m'exprimer dans de grands groupes."
+    5: "5. Je vois des personnes comme moi bien représentées dans les postes de direction."
+    6: "6. Je peux remettre en question un collègue senior sans craindre de conséquences négatives."
+    7: "7. Je ressens rarement que l'on attend de moi que je parle au nom de mon pays ou de ma culture."
+    8: "8. J'ai accès à des relations informelles qui m'aident à faire avancer les choses dans l'organisation."
+    9: "9. Je ne crains pas que mon comportement renforce des stéréotypes liés à mon origine."
+    10: "10. Je peux supposer que les politiques et pratiques de l'entreprise ont été conçues en pensant à des personnes comme moi."
+    11: "11. Je peux voyager pour le travail sans obstacles majeurs liés aux visas ou à l'administration."
+    12: "12. Je peux évoluer dans la vie quotidienne sans me sentir comme un outsider en raison de mon origine."
+    13: "13. Je peux partager ouvertement mon identité sans craindre pour ma sécurité ou mon acceptation."
+    14: "14. Je peux supposer que les lois de mon pays protègent mes droits et libertés fondamentaux."
+    15: "15. Les événements mondiaux me font rarement remettre en question ma stabilité à long terme ou mon sentiment d'appartenance."
+

@@ -11,4 +11,5 @@ Router.map(function () {
   this.route('contribute');
   this.route('resources');
   this.route('trusted-ten');
+  this.route('privilege-walk');
 });

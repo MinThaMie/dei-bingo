@@ -6,6 +6,7 @@ menu:
   glossary: 'Glossary'
   resources: 'Resources'
   ten: 'Trusted Ten'
+  walk: 'Privilege Walk'
   language: 'Select language'
 index:
   page-title: 'DEI@Nedap'
@@ -281,3 +282,36 @@ ten:
   </li>
   <li>How might you diversify your inner circle of confidants?</li>
   <li>In regards to a business strategy, how might embracing diverse perspectives, have an impact on: customer empathy, worldview of markets, potential customers and opportunities?</li>'
+
+walk:
+  pagetitle: 'Privilege Walk'
+  subtitle: 'Privilege'
+  title: 'Walk'
+  intro: 'An exercise to reflect on how identity, access, and context shape your experience at work and beyond.<br /><br />Move through the statements at your own pace and select decide whether it applies to you. Pay attention to where you feel advantage, ease, or extra effort.'
+  applies: 'Applies to me'
+  no-apply: "Doesn't apply to me"
+  reflection-text: 'When you have completed the statements, reflect on the following:
+  <ul>
+    <li>Where did you notice ease or advantage?</li>
+    <li>Where did you notice friction, extra effort, or vulnerability?</li>
+    <li>In which areas do you hold privilege, and in which areas do you not?</li>
+    <li>How might your experience shift in a different country, team, or context?</li>
+    <li>How can you use areas of privilege to create space, access, or support for others?</li>'
+  statements:
+    1: "1. I can easily attend in-person meetings where important decisions are shaped."
+    2: "2. Most internal communication happens in my native language."
+    3: "3. I rarely need to adjust my working hours because of time zone differences."
+    4: "4. I feel confident speaking up in large group settings."
+    5: "5. I see people like me well represented in leadership."
+    6: "6. I can challenge a senior colleague without worrying about negative consequences."
+    7: "7. I rarely feel that I am expected to speak on behalf of my country or culture."
+    8: "8. I have access to informal connections that help me get things done in the organization."
+    9: "9. I don’t worry that my behavior will reinforce stereotypes about my background."
+    10: "10. I can assume company policies and practices were designed with someone like me in mind."
+    11: "11. I can travel for work without major visa or administrative barriers."
+    12: "12. I can move through daily life without feeling like an outsider because of my background."
+    13: "13. I can openly share my identity without worrying about safety or acceptance."
+    14: "14. I can assume that laws in my country protect my basic rights and freedoms."
+    15: "15. World events rarely make me question my long-term stability or sense of belonging."
+
+

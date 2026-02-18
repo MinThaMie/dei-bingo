@@ -21,6 +21,9 @@
         <LinkTo @route="trusted-ten">{{t "menu.ten"}}</LinkTo>
       </li>
       <li>
+        <LinkTo @route="privilege-walk">{{t "menu.walk"}}</LinkTo>
+      </li>
+      <li>
         <select aria-label={{t "menu.language"}} name="locale" {{on 'change' this.changeLocale}}>
           {{#each this.locales as |model|}}
           <option selected={{if (eq model this.activeLocale) "selected"}} value={{model}}>{{countryflag model}} {{language model}}</option>
