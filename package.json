@@ -91,6 +91,7 @@
     "@embroider/compat": "^3.3.1",
     "@embroider/core": "^3.4.2",
     "@embroider/webpack": "^3.2.1",
+    "ember-cli-update": "^3.0.1",
     "seedrandom": "^3.0.5"
   }
 }
