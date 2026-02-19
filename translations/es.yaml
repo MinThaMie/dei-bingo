@@ -6,6 +6,7 @@ menu:
   glossary: 'Glosario'
   resources: 'Recursos'
   ten: 'Los Diez de Confianza'
+  walk: 'Privilege Walk'
   language: 'Seleccionar idioma'
 index:
   page-title: 'DEI@Nedap'
@@ -297,19 +298,21 @@ walk:
     <li>¿Cómo cambiaría tu experiencia en otro país, equipo o contexto?</li>
     <li>¿Cómo puedes utilizar tus privilegios para crear más espacio, acceso o apoyo para otras personas?</li>'
   statements:
-    1: "1. Puedo asistir fácilmente a reuniones presenciales donde se toman decisiones importantes."
-    2: "2. La mayor parte de la comunicación interna se realiza en mi lengua materna."
+    1: "1. Normalmente soy invitado/a o puedo participar en reuniones donde se toman decisiones importantes."
+    2: "2. La mayor parte de la comunicación interna en mi unidad se realiza en mi lengua materna."
     3: "3. Rara vez necesito ajustar mi horario de trabajo debido a diferencias de zona horaria."
-    4: "4. Me siento seguro/a al expresar mi opinión en grupos grandes."
+    4: "4. Me siento cómodo/a al expresar mi opinión en grupos grandes."
     5: "5. Veo personas como yo bien representadas en puestos de liderazgo."
     6: "6. Puedo cuestionar a un colega senior sin preocuparme por consecuencias negativas."
-    7: "7. Rara vez siento que se espera que hable en nombre de mi país o cultura."
-    8: "8. Tengo conexiones informales que me ayudan a avanzar en la organización."
-    9: "9. No me preocupa que mi comportamiento refuerce estereotipos sobre mi origen."
-    10: "10. Puedo asumir que las políticas y prácticas de la empresa fueron diseñadas pensando en personas como yo."
-    11: "11. Puedo viajar por trabajo sin grandes barreras de visado o administrativas."
-    12: "12. Puedo moverme en mi vida diaria sin sentirme como un extraño/a debido a mi origen."
-    13: "13. Puedo compartir mi identidad abiertamente sin preocuparme por mi seguridad o aceptación."
-    14: "14. Puedo asumir que las leyes de mi país protegen mis derechos y libertades fundamentales."
-    15: "15. Los acontecimientos mundiales rara vez me hacen cuestionar mi estabilidad a largo plazo o mi sentido de pertenencia."
+    7: "7. Tengo conexiones informales que me ayudan a avanzar en la organización."
+    8: "8. No me preocupa que mi comportamiento refuerce estereotipos sobre mi origen."
+    9: "9. Puedo asumir que las políticas, prácticas y espacios físicos de la empresa fueron diseñados pensando en personas como yo."
+    10: "10. Puedo viajar por trabajo sin preocuparme por cómo seré tratado/a en el destino."
+    11: "11. Puedo moverme en mi vida diaria sin sentirme como un extraño/a debido a mi origen."
+    12: "12. Puedo compartir mi identidad abiertamente sin preocuparme por mi seguridad o aceptación."
+    13: "13. Puedo asumir que las leyes de mi país protegen mis derechos y libertades fundamentales."
+    14: "14. Los acontecimientos mundiales rara vez me hacen cuestionar mi estabilidad a largo plazo o mi sentido de pertenencia."
+    15: "15. Cuando expreso mi opinión, normalmente se toma en serio."
+    16: "16. Veo muchas personas como yo en la oficina."
+
 

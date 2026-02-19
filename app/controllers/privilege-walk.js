@@ -5,7 +5,7 @@ import { action } from '@ember/object';
 export default class PrivilageWalkController extends Controller {
   @tracked scores =
     JSON.parse(localStorage.getItem('privilege-scores')) ??
-    new Array(15).fill(0);
+    new Array(16).fill(null);
 
   get privilegeScore() {
     return this.scores.reduce(
@@ -19,17 +19,17 @@ export default class PrivilageWalkController extends Controller {
     let [index, type] = id.split('-');
     return (
       type == this.scores[index - 1] ||
-      (type == 2 && this.scores[index - 1] == -1)
+      (type == 2 && this.scores[index - 1] == 0)
     );
   }
 
   squareClass(score) {
     switch (score) {
-      case 0:
+      case null:
         return 'neutral';
       case 1:
         return 'positive';
-      case -1:
+      case 0:
         return 'negative';
       default:
         break;
@@ -40,6 +40,7 @@ export default class PrivilageWalkController extends Controller {
   clickRadio(e) {
     this.scores[e.target.name - 1] = Number(e.target.value);
     localStorage.setItem('privilege-scores', JSON.stringify(this.scores));
+    // eslint-disable-next-line no-self-assign
     this.scores = this.scores;
   }
 }

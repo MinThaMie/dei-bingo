@@ -6,6 +6,7 @@ menu:
   glossary: 'Glossar'
   resources: 'Ressourcen'
   ten: 'Vertraute Zehn'
+  walk: 'Privilege Walk'
   language: 'Sprache auswählen'
 index:
   page-title: 'DEI@Nedap'
@@ -297,18 +298,20 @@ walk:
     <li>Wie würde sich deine Erfahrung in einem anderen Land, Team oder Kontext verändern?</li>
     <li>Wie können Sie dein Privilegien nutzen, um Raum, Zugang oder Unterstützung für andere zu schaffen?</li>'
   statements:
-    1: "1. Ich kann problemlos an persönlichen Meetings teilnehmen, in denen wichtige Entscheidungen getroffen werden."
-    2: "2. Der Großteil der internen Kommunikation findet in meiner Muttersprache statt."
+    1: "1. Ich werde in der Regel zu Meetings eingeladen oder kann daran teilnehmen, in denen wichtige Entscheidungen getroffen werden."
+    2: "2. Der Großteil der internen Kommunikation in meiner Business Unit findet in meiner Muttersprache statt."
     3: "3. Ich muss meine Arbeitszeiten aufgrund von Zeitzonenunterschieden selten anpassen."
-    4: "4. Ich fühle mich sicher, meine Meinung in größeren Gruppen zu äußern."
+    4: "4. Ich fühle mich wohl dabei, meine Meinung in größeren Gruppen zu äußern."
     5: "5. Ich sehe Menschen wie mich gut in Führungspositionen vertreten."
     6: "6. Ich kann eine Führungskraft hinterfragen, ohne negative Konsequenzen befürchten zu müssen."
-    7: "7. Ich habe selten das Gefühl, im Namen meines Landes oder meiner Kultur sprechen zu müssen."
-    8: "8. Ich habe informelle Kontakte, die mir helfen, Dinge in der Organisation voranzubringen."
-    9: "9. Ich mache mir keine Sorgen, dass mein Verhalten Stereotype über meinen Hintergrund verstärkt."
-    10: "10. Ich kann davon ausgehen, dass Unternehmensrichtlinien und -praktiken mit Menschen wie mir im Blick entwickelt wurden."
-    11: "11. Ich kann beruflich reisen, ohne größere Visa- oder Verwaltungsbarrieren."
-    12: "12. Ich kann mich im Alltag bewegen, ohne mich aufgrund meines Hintergrunds als Außenseiter zu fühlen."
-    13: "13. Ich kann meine Identität offen teilen, ohne mir Sorgen um Sicherheit oder Akzeptanz zu machen."
-    14: "14. Ich kann davon ausgehen, dass die Gesetze in meinem Land meine grundlegenden Rechte und Freiheiten schützen."
-    15: "15. Weltgeschehen lassen mich selten an meiner langfristigen Stabilität oder meinem Zugehörigkeitsgefühl zweifeln."
+    7: "7. Ich habe informelle Kontakte, die mir helfen, Dinge in der Organisation voranzubringen."
+    8: "8. Ich mache mir keine Sorgen, dass mein Verhalten Stereotype über meinen Hintergrund verstärkt."
+    9: "9. Ich kann davon ausgehen, dass Unternehmensrichtlinien, -praktiken und physische Arbeitsumgebungen mit Menschen wie mir im Blick entwickelt wurden."
+    10: "10. Ich kann beruflich reisen, ohne mir Sorgen darüber zu machen, wie ich am Zielort behandelt werde."
+    11: "11. Ich kann mich im Alltag bewegen, ohne mich aufgrund meines Hintergrunds als Außenseiter zu fühlen."
+    12: "12. Ich kann meine Identität offen teilen, ohne mir Sorgen um Sicherheit oder Akzeptanz zu machen."
+    13: "13. Ich kann davon ausgehen, dass die Gesetze in meinem Land meine grundlegenden Rechte und Freiheiten schützen."
+    14: "14. Weltgeschehen lassen mich selten an meiner langfristigen Stabilität oder meinem Zugehörigkeitsgefühl zweifeln."
+    15: "15. Wenn ich meine Meinung äußere, wird sie in der Regel ernst genommen."
+    16: "16. Ich sehe viele Menschen wie mich im Büro."
+

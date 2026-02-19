@@ -7,6 +7,7 @@ menu:
   resources: 'Bronnen'
   language: 'Taal selecteren'
   ten: 'Vertrouwde Tien'
+  walk: 'Privilege Walk'
 index:
   page-title: 'DEI@Nedap'
   subtitle: 'Samen'
@@ -298,18 +299,20 @@ walk:
     <li>Hoe zou jouw ervaring veranderen in een ander land, team of context?</li>
     <li>Hoe kun je de gebieden waarin jij privilege hebt inzetten om ruimte, toegang of steun voor anderen te creëren?</li>'
   statements:
-    1: "1. Ik kan gemakkelijk fysieke bijeenkomsten bijwonen waar belangrijke beslissingen worden gevormd."
-    2: "2. De meeste interne communicatie vindt plaats in mijn moedertaal."
+    1: "1. Ik word meestal uitgenodigd voor of kan deelnemen aan vergaderingen waar belangrijke beslissingen worden genomen."
+    2: "2. De meeste interne communicatie binnen mijn business unit vindt plaats in mijn moedertaal."
     3: "3. Ik hoef mijn werktijden zelden aan te passen vanwege tijdsverschillen."
-    4: "4. Ik voel me zelfverzekerd om mijn stem te laten horen in grote groepen."
+    4: "4. Ik voel me comfortabel om mijn mening te uiten in grote groepen."
     5: "5. Ik zie mensen zoals ik goed vertegenwoordigd in leidinggevende posities."
     6: "6. Ik kan een senior collega uitdagen zonder me zorgen te maken over negatieve gevolgen."
-    7: "7. Ik voel zelden dat ik geacht word namens mijn land of cultuur te spreken."
-    8: "8. Ik heb informele connecties die mij helpen om dingen gedaan te krijgen binnen de organisatie."
-    9: "9. Ik maak me geen zorgen dat mijn gedrag stereotypen over mijn achtergrond zal bevestigen."
-    10: "10. Ik kan ervan uitgaan dat bedrijfsbeleid en -praktijken zijn ontworpen met iemand zoals ik in gedachten."
-    11: "11. Ik kan voor werk reizen zonder grote visum- of administratieve belemmeringen."
-    12: "12. Ik kan door het dagelijks leven bewegen zonder me een buitenstaander te voelen vanwege mijn achtergrond."
-    13: "13. Ik kan mijn identiteit openlijk delen zonder me zorgen te maken over veiligheid of acceptatie."
-    14: "14. Ik kan ervan uitgaan dat de wetten in mijn land mijn basisrechten en vrijheden beschermen."
-    15: "15. Wereldgebeurtenissen doen mij zelden twijfelen aan mijn langetermijnstabiliteit of gevoel van verbondenheid."
+    7: "7. Ik heb informele connecties die mij helpen om dingen gedaan te krijgen binnen de organisatie."
+    8: "8. Ik maak me geen zorgen dat mijn gedrag stereotypen over mijn achtergrond zal bevestigen."
+    9: "9. Ik kan ervan uitgaan dat bedrijfsbeleid, -praktijken en de fysieke werkomgeving zijn ontworpen met iemand zoals ik in gedachten."
+    10: "10. Ik kan voor werk reizen zonder me zorgen te maken over hoe ik op de bestemming behandeld zal worden."
+    11: "11. Ik kan door het dagelijks leven bewegen zonder me een buitenstaander te voelen vanwege mijn achtergrond."
+    12: "12. Ik kan mijn identiteit openlijk delen zonder me zorgen te maken over veiligheid of acceptatie."
+    13: "13. Ik kan ervan uitgaan dat de wetten in mijn land mijn basisrechten en vrijheden beschermen."
+    14: "14. Wereldgebeurtenissen doen mij zelden twijfelen aan mijn langetermijnstabiliteit of gevoel van verbondenheid."
+    15: "15. Als ik mijn mening geef, wordt die meestal serieus genomen."
+    16: "16. Ik zie veel mensen zoals ik op kantoor."
+
