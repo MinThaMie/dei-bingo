@@ -2,7 +2,7 @@
 
 module.exports = function (environment) {
   const ENV = {
-    modulePrefix: 'dei-bingo',
+    modulePrefix: 'dei-nedap',
     environment,
     rootURL: '/',
     locationType: 'history',

@@ -1,6 +1,6 @@
 {{page-title (t "index.page-title")}}
 
-{{#if (media 'isDesktop')}}
+{{#if this.isDesktop}}
 <div class="navbar">
   <LinkTo @route="index"><img src="logo.svg" alt="{{t "menu.logo-alt"}}"></LinkTo>
   <nav>
@@ -61,19 +61,19 @@
       <nav>
         <ul>
           <li>
-            <mm.LinkTo @route="index">{{t "menu.home"}}</mm.LinkTo>
+            <LinkTo @route="index" {{on "click" mm.actions.close}}>{{t "menu.home"}}</LinkTo>
           </li>
           <li>
-            <mm.LinkTo @route="contribute">{{t "menu.contribute"}}</mm.LinkTo>
+            <LinkTo @route="contribute" {{on "click" mm.actions.close}}>{{t "menu.contribute"}}</LinkTo>
           </li>
           <li>
-            <mm.LinkTo @route="glossary">{{t "menu.glossary"}}</mm.LinkTo>
+            <LinkTo @route="glossary" {{on "click" mm.actions.close}}>{{t "menu.glossary"}}</LinkTo>
           </li>
           <li>
-            <mm.LinkTo @route="resources">{{t "menu.resources"}}</mm.LinkTo>
+            <LinkTo @route="resources" {{on "click" mm.actions.close}}>{{t "menu.resources"}}</LinkTo>
           </li>
           <li>
-            <mm.LinkTo @route="trusted-ten">{{t "menu.ten"}}</mm.LinkTo>
+            <LinkTo @route="trusted-ten" {{on "click" mm.actions.close}}>{{t "menu.ten"}}</LinkTo>
           </li>
         </ul>
       </nav>

@@ -1,5 +1,5 @@
 /* stylelint-disable import-notation */
-@import "bingo.css";
+@import "./bingo.css";
 @import "glossary.css";
 @import "resources.css";
 @import "ten.css";
@@ -58,6 +58,12 @@ select {
   font-weight: 300;
   cursor: pointer;
   text-align: right;
+}
+
+/* stylelint-disable-next-line selector-class-pattern */
+.mobile-menu--right .mobile-menu__mask {
+  left: unset;
+  right: 0;
 }
 
 select:focus {

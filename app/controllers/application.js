@@ -5,10 +5,15 @@ import { action } from '@ember/object';
 
 export default class ApplicationController extends Controller {
   @service intl;
+  @service media;
 
   @tracked activeLocale = this.intl.primaryLocale;
 
-  locales = this.intl.locales.slice(1);
+  locales = this.intl.locales;
+
+  get isDesktop() {
+     return this.media.matches.has('desktop');
+  }
 
   @action
   changeLocale(locale) {

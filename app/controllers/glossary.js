@@ -25,12 +25,12 @@ export default class GlossaryController extends Controller {
       )
       .map((e) => {
         if (caps.includes(this.intl.t(e.title)[0])) {
-          return { ...e, link: this.intl.lookup(e.title, 'en'), caps: '' };
+          return { ...e, link: this.intl.getTranslation(e.title, 'en'), caps: '' };
         } else {
           caps.push(this.intl.t(e.title)[0]);
           return {
             ...e,
-            link: this.intl.lookup(e.title, 'en'),
+            link: this.intl.getTranslation(e.title, 'en'),
             caps: this.intl.t(e.title)[0],
           };
         }

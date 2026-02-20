@@ -1,5 +1,5 @@
 import Route from '@ember/routing/route';
-import { tracked } from 'tracked-built-ins';
+import { trackedObject } from '@ember/reactive/collections';
 
 let completedCells = [];
 
@@ -160,7 +160,7 @@ const cells = [
     description: 'contribute.roles.globetrotter.description',
     explanation: 'contribute.roles.globetrotter.explanation',
   },
-].map((i) => tracked({ ...i, completed: completedCells.includes(i.title) }));
+].map((i) => trackedObject({ ...i, completed: completedCells.includes(i.title) }));
 
 export default class ContributeRoute extends Route {
   model() {
