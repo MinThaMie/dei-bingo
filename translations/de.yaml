@@ -287,9 +287,10 @@ walk:
   pagetitle: 'Privilege Walk'
   subtitle: 'Privilege'
   title: 'Walk'
-  intro: 'Eine Übung, um darüber nachzudenken, wie Identität, Zugang und Kontext Ihre Erfahrungen am Arbeitsplatz und darüber hinaus prägen.<br /><br />Geh die Aussagen in deinem eigenen Tempo durch und entscheide, ob sie auf dich zutreffen. Achte darauf, wo du Leichtigkeit oder Vorteile erlebst und wo zusätzlicher Aufwand erforderlich ist.'
+  intro: 'Eine Übung, um darüber nachzudenken, wie Identität, Zugang und Kontext deine Erfahrungen am Arbeitsplatz und darüber hinaus prägen.<br /><br />Geh die Aussagen in deinem eigenen Tempo durch und entscheide, ob sie auf dich zutreffen. Achte darauf, wo du Leichtigkeit oder Vorteile erlebst und wo zusätzlicher Aufwand erforderlich ist.'
   applies: 'Trifft auf mich zu'
   no-apply: 'Trifft nicht auf mich zu'
+  score: "Privilege score"
   reflection-text: 'Nachdem du alle Aussagen durchgegangen bist, reflektiere bitte Folgendes:
   <ul>
     <li>Wo hast du Leichtigkeit oder Vorteile wahrgenommen?</li>
@@ -303,10 +304,10 @@ walk:
     3: "3. Ich muss meine Arbeitszeiten aufgrund von Zeitzonenunterschieden selten anpassen."
     4: "4. Ich fühle mich wohl dabei, meine Meinung in größeren Gruppen zu äußern."
     5: "5. Ich sehe Menschen wie mich gut in Führungspositionen vertreten."
-    6: "6. Ich kann eine Führungskraft hinterfragen, ohne negative Konsequenzen befürchten zu müssen."
+    6: "6. Ich kann eine senior Kollegen hinterfragen, ohne negative Konsequenzen befürchten zu müssen."
     7: "7. Ich habe informelle Kontakte, die mir helfen, Dinge in der Organisation voranzubringen."
     8: "8. Ich mache mir keine Sorgen, dass mein Verhalten Stereotype über meinen Hintergrund verstärkt."
-    9: "9. Ich kann davon ausgehen, dass Unternehmensrichtlinien, -praktiken und physische Arbeitsumgebungen mit Menschen wie mir im Blick entwickelt wurden."
+    9: "9. Ich kann davon ausgehen, dass Unternehmensrichtlinien, Prozess und physische Arbeitsumgebungen mit Menschen wie mir im Blick entwickelt wurden."
     10: "10. Ich kann beruflich reisen, ohne mir Sorgen darüber zu machen, wie ich am Zielort behandelt werde."
     11: "11. Ich kann mich im Alltag bewegen, ohne mich aufgrund meines Hintergrunds als Außenseiter zu fühlen."
     12: "12. Ich kann meine Identität offen teilen, ohne mir Sorgen um Sicherheit oder Akzeptanz zu machen."

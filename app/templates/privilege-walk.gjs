@@ -1,0 +1,185 @@
+import pageTitle from "ember-page-title/helpers/page-title";
+import t from "ember-intl/helpers/t";
+import Callout from "../components/callout.gjs";
+import { on } from "@ember/modifier";
+<template>{{pageTitle (t "walk.pagetitle")}}
+<Callout @subtitle={{t "walk.subtitle"}}>{{t "walk.title"}}</Callout>
+            <p class="intro">{{t "walk.intro" htmlSafe=true}}</p>
+
+<div class="score-list">
+{{#each @controller.scores as |score|}}
+  <div class={{@controller.squareClass score}}></div>
+{{/each}}
+</div>
+
+<p class="statement">
+{{t "walk.statements.1"}}
+<div class="options">
+  <input type="radio" {{on "click" @controller.clickRadio}} name="1" id="1-1" value="1" checked={{@controller.isChecked "1-1"}} />
+	<label for="1-1">{{t "walk.applies"}}</label>
+	<input type="radio" {{on "click" @controller.clickRadio}} name="1" id="1-2" value="0" checked={{@controller.isChecked "1-2"}} />
+	<label for="1-2">{{t "walk.no-apply"}}</label>
+</div>
+</p>
+
+<p class="statement">
+{{t "walk.statements.2"}}
+<div class="options">
+  <input type="radio" {{on "click" @controller.clickRadio}} name="2" id="2-1" value="1" checked={{@controller.isChecked "2-1"}} />
+	<label for="2-1">{{t "walk.applies"}}</label>
+	<input type="radio" {{on "click" @controller.clickRadio}} name="2" id="2-2" value="0" checked={{@controller.isChecked "2-2"}} />
+	<label for="2-2">{{t "walk.no-apply"}}</label>
+</div>
+</p>
+
+<p class="statement">
+{{t "walk.statements.3"}}
+<div class="options">
+  <input type="radio" {{on "click" @controller.clickRadio}} name="3" id="3-1" value="1" checked={{@controller.isChecked "3-1"}} />
+	<label for="3-1">{{t "walk.applies"}}</label>
+	<input type="radio" {{on "click" @controller.clickRadio}} name="3" id="3-2" value="0" checked={{@controller.isChecked "3-2"}} />
+	<label for="3-2">{{t "walk.no-apply"}}</label>
+</div>
+</p>
+
+<p class="statement">
+{{t "walk.statements.4"}}
+<div class="options">
+  <input type="radio" {{on "click" @controller.clickRadio}} name="4" id="4-1" value="1" checked={{@controller.isChecked "4-1"}} />
+	<label for="4-1">{{t "walk.applies"}}</label>
+	<input type="radio" {{on "click" @controller.clickRadio}} name="4" id="4-2" value="0" checked={{@controller.isChecked "4-2"}} />
+	<label for="4-2">{{t "walk.no-apply"}}</label>
+</div>
+</p>
+
+<p class="statement">
+{{t "walk.statements.5"}}
+<div class="options">
+  <input type="radio" {{on "click" @controller.clickRadio}} name="5" id="5-1" value="1" checked={{@controller.isChecked "5-1"}} />
+	<label for="5-1">{{t "walk.applies"}}</label>
+	<input type="radio" {{on "click" @controller.clickRadio}} name="5" id="5-2" value="0" checked={{@controller.isChecked "5-2"}} />
+	<label for="5-2">{{t "walk.no-apply"}}</label>
+</div>
+</p>
+
+<p class="statement">
+{{t "walk.statements.6"}}
+<div class="options">
+  <input type="radio" {{on "click" @controller.clickRadio}} name="6" id="6-1" value="1" checked={{@controller.isChecked "6-1"}} />
+	<label for="6-1">{{t "walk.applies"}}</label>
+	<input type="radio" {{on "click" @controller.clickRadio}} name="6" id="6-2" value="0" checked={{@controller.isChecked "6-2"}} />
+	<label for="6-2">{{t "walk.no-apply"}}</label>
+</div>
+</p>
+
+<p class="statement">
+{{t "walk.statements.7"}}
+<div class="options">
+  <input type="radio" {{on "click" @controller.clickRadio}} name="7" id="7-1" value="1" checked={{@controller.isChecked "7-1"}} />
+	<label for="7-1">{{t "walk.applies"}}</label>
+	<input type="radio" {{on "click" @controller.clickRadio}} name="7" id="7-2" value="0" checked={{@controller.isChecked "7-2"}} />
+	<label for="7-2">{{t "walk.no-apply"}}</label>
+</div>
+</p>
+
+<p class="statement">
+{{t "walk.statements.8"}}
+<div class="options">
+  <input type="radio" {{on "click" @controller.clickRadio}} name="8" id="8-1" value="1" checked={{@controller.isChecked "8-1"}} />
+	<label for="8-1">{{t "walk.applies"}}</label>
+	<input type="radio" {{on "click" @controller.clickRadio}} name="8" id="8-2" value="0" checked={{@controller.isChecked "8-2"}} />
+	<label for="8-2">{{t "walk.no-apply"}}</label>
+</div>
+</p>
+
+<p class="statement">
+{{t "walk.statements.9"}}
+<div class="options">
+  <input type="radio" {{on "click" @controller.clickRadio}} name="9" id="9-1" value="1" checked={{@controller.isChecked "9-1"}} />
+	<label for="9-1">{{t "walk.applies"}}</label>
+	<input type="radio" {{on "click" @controller.clickRadio}} name="9" id="9-2" value="0" checked={{@controller.isChecked "9-2"}} />
+	<label for="9-2">{{t "walk.no-apply"}}</label>
+</div>
+</p>
+
+<p class="statement">
+{{t "walk.statements.10"}}
+<div class="options">
+  <input type="radio" {{on "click" @controller.clickRadio}} name="10" id="10-1" value="1" checked={{@controller.isChecked "10-1"}} />
+	<label for="10-1">{{t "walk.applies"}}</label>
+	<input type="radio" {{on "click" @controller.clickRadio}} name="10" id="10-2" value="0" checked={{@controller.isChecked "10-2"}} />
+	<label for="10-2">{{t "walk.no-apply"}}</label>
+</div>
+</p>
+
+<p class="statement">
+{{t "walk.statements.11"}}
+<div class="options">
+  <input type="radio" {{on "click" @controller.clickRadio}} name="11" id="11-1" value="1" checked={{@controller.isChecked "11-1"}} />
+	<label for="11-1">{{t "walk.applies"}}</label>
+	<input type="radio" {{on "click" @controller.clickRadio}} name="11" id="11-2" value="0" checked={{@controller.isChecked "11-2"}} />
+	<label for="11-2">{{t "walk.no-apply"}}</label>
+</div>
+</p>
+
+<p class="statement">
+{{t "walk.statements.12"}}
+<div class="options">
+  <input type="radio" {{on "click" @controller.clickRadio}} name="12" id="12-1" value="1" checked={{@controller.isChecked "12-1"}} />
+	<label for="12-1">{{t "walk.applies"}}</label>
+	<input type="radio" {{on "click" @controller.clickRadio}} name="12" id="12-2" value="0" checked={{@controller.isChecked "12-2"}} />
+	<label for="12-2">{{t "walk.no-apply"}}</label>
+</div>
+</p>
+
+<p class="statement">
+{{t "walk.statements.13"}}
+<div class="options">
+  <input type="radio" {{on "click" @controller.clickRadio}} name="13" id="13-1" value="1" checked={{@controller.isChecked "13-1"}} />
+	<label for="13-1">{{t "walk.applies"}}</label>
+	<input type="radio" {{on "click" @controller.clickRadio}} name="13" id="13-2" value="0" checked={{@controller.isChecked "13-2"}} />
+	<label for="13-2">{{t "walk.no-apply"}}</label>
+</div>
+</p>
+
+<p class="statement">
+{{t "walk.statements.14"}}
+<div class="options">
+  <input type="radio" {{on "click" @controller.clickRadio}} name="14" id="14-1" value="1" checked={{@controller.isChecked "14-1"}} />
+	<label for="14-1">{{t "walk.applies"}}</label>
+	<input type="radio" {{on "click" @controller.clickRadio}} name="14" id="14-2" value="0" checked={{@controller.isChecked "14-2"}} />
+	<label for="14-2">{{t "walk.no-apply"}}</label>
+</div>
+</p>
+
+<p class="statement">
+{{t "walk.statements.15"}}
+<div class="options">
+  <input type="radio" {{on "click" @controller.clickRadio}} name="15" id="15-1" value="1" checked={{@controller.isChecked "15-1"}} />
+	<label for="15-1">{{t "walk.applies"}}</label>
+	<input type="radio" {{on "click" @controller.clickRadio}} name="15" id="15-2" value="0" checked={{@controller.isChecked "15-2"}} />
+	<label for="15-2">{{t "walk.no-apply"}}</label>
+</div>
+</p>
+
+<p class="statement">
+{{t "walk.statements.16"}}
+<div class="options">
+  <input type="radio" {{on "click" @controller.clickRadio}} name="16" id="16-1" value="1" checked={{@controller.isChecked "16-1"}} />
+	<label for="16-1">{{t "walk.applies"}}</label>
+	<input type="radio" {{on "click" @controller.clickRadio}} name="16" id="16-2" value="0" checked={{@controller.isChecked "16-2"}} />
+	<label for="16-2">{{t "walk.no-apply"}}</label>
+</div>
+</p>
+
+<h2 class="cards-title">{{t "ten.reflection"}}</h2>
+
+<p>{{t "walk.score"}}: {{@controller.privilegeScore}}</p>
+
+<div class="score-list">
+{{#each @controller.scores as |score|}}
+  <div class={{@controller.squareClass score}}></div>
+{{/each}}
+</div>
+
+<p class="intro">{{t "walk.reflection-text" htmlSafe=true}}</p></template>

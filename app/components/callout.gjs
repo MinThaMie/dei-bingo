@@ -1,4 +1,5 @@
-<h1 ...attributes class="callout">
+
+<template><h1 ...attributes class="callout">
   <span class="callout-subtitle">{{@subtitle}}</span><br>
   <span class="callout-title">{{yield}}</span>
-</h1>
+</h1></template>

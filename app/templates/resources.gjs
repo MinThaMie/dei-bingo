@@ -1,4 +1,8 @@
-{{page-title (t "menu.resources")}}
+import pageTitle from "ember-page-title/helpers/page-title";
+import t from "ember-intl/helpers/t";
+import Callout from "../components/callout.gjs";
+import svgJar from "ember-svg-jar/helpers/svg-jar";
+<template>{{pageTitle (t "menu.resources")}}
 <Callout @subtitle={{t "resources.subtitle"}}>{{t "resources.title"}}</Callout>
 
 <p class="intro">{{t "resources.welcome"}}</p>
@@ -6,14 +10,12 @@
 <div class="resource-container">
   <div class="resource-card">
     <div class="resource-header">
-      {{svg-jar 'play'}}
+      {{svgJar "play"}}
       <h3>{{t "resources.watch"}}</h3>
     </div>
     <h4>{{t "resources.diversity"}}</h4>
     <ul class="resource-list">
-      <li><a
-          lang="en" href="https://www.ted.com/playlists/670/a_blueprint_for_diversity_in_the_workplace"
-        >Diversity TED Talks playlist
+      <li><a lang="en" href="https://www.ted.com/playlists/670/a_blueprint_for_diversity_in_the_workplace">Diversity TED Talks playlist
         </a></li>
       <li><a lang="en" href="https://youtu.be/bqQJv4bvrPI">The myth of bringing your full, authentic self to work
         </a></li>
@@ -40,7 +42,7 @@
 
   <div class="resource-card">
     <div class="resource-header">
-      {{svg-jar 'listen'}}
+      {{svgJar "listen"}}
       <h3>{{t "resources.listen"}}</h3>
     </div>
     <h4>{{t "resources.diversity"}}</h4>
@@ -51,9 +53,7 @@
     <h4>{{t "resources.community"}}</h4>
       <ul class="resource-list">
         <li>
-          <a
-            lang="en" href="https://open.spotify.com/show/0gt7vAPAT4LtDt4mGBIfOt?si=a6bQ18DRRiu0012DIJEbUA"
-          >Survival of the Kindest podcast
+          <a lang="en" href="https://open.spotify.com/show/0gt7vAPAT4LtDt4mGBIfOt?si=a6bQ18DRRiu0012DIJEbUA">Survival of the Kindest podcast
           </a>
         </li>
       </ul>
@@ -61,21 +61,17 @@
 
   <div class="resource-card">
     <div class="resource-header">
-      {{svg-jar 'read'}}
+      {{svgJar "read"}}
       <h3>{{t "resources.read"}}</h3>
     </div>
     <h4>{{t "resources.diversity"}}</h4>
     <ul class="resource-list">
     <li>
-      <a
-        lang="en" href="https://hbr.org/amp/2021/02/stop-telling-women-they-have-imposter-syndrome"
-      >"Stop telling women they have imposter syndrome"
+      <a lang="en" href="https://hbr.org/amp/2021/02/stop-telling-women-they-have-imposter-syndrome">"Stop telling women they have imposter syndrome"
       </a>
     </li>
     <li>
-      <a
-        lang="en" href="https://www.crowdstrike.com/blog/embracing-who-you-are-with-zoe-bijl/"
-      >A Conversation on the Trans Experience and Embracing Who You Really Are
+      <a lang="en" href="https://www.crowdstrike.com/blog/embracing-who-you-are-with-zoe-bijl/">A Conversation on the Trans Experience and Embracing Who You Really Are
       </a>
     </li>
     <li>
@@ -93,17 +89,13 @@
       </a>
     </li>
     <li>
-      <a
-        lang="nl" href="https://npokennis.nl/longread/7752/hoe-bewust-ben-jij-je-van-je-vooroordelen"
-      >Hoe bewust ben jij je van je vooroordelen? (NL)
+      <a lang="nl" href="https://npokennis.nl/longread/7752/hoe-bewust-ben-jij-je-van-je-vooroordelen">Hoe bewust ben jij je van je vooroordelen? (NL)
       </a>
     </li>
     <li>
-      <a
-        lang="nl" href="https://www.movisie.nl/sites/movisie.nl/files/2020-07/regenboogtaaltips_03.pdf"
-      >Regenboog Taaltips (NL)
+      <a lang="nl" href="https://www.movisie.nl/sites/movisie.nl/files/2020-07/regenboogtaaltips_03.pdf">Regenboog Taaltips (NL)
       </a>
     </li>
   </ul>
   </div>
-</div>
+</div></template>

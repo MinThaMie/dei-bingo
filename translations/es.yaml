@@ -287,32 +287,32 @@ walk:
   pagetitle: 'Privilege Walk'
   subtitle: 'Privilege'
   title: 'Walk'
-  intro: 'Un ejercicio para reflexionar sobre cómo la identidad, el acceso y el contexto influyen en tu experiencia en el trabajo y más allá.<br /><br />Avanza por las afirmaciones a tu propio ritmo y decide si se aplican a ti. Observa dónde experimentas facilidad o ventaja y dónde requieres un esfuerzo adicional.'
+  intro: 'Este es un ejercicio para reflexionar sobre cómo la identidad, el acceso y el contexto influyen en tu experiencia laboral y más allá.<br /><br />Revisa las afirmaciones a tu propio ritmo y responde si se aplican a ti. Presta atención a dónde sientes ventaja o facilidad y dónde requieres un esfuerzo adicional.'
   applies: 'Se aplica a mí'
   no-apply: 'No se aplica a mí'
+  score: "Privilege score"
   reflection-text: 'Cuando hayas completado las afirmaciones, reflexiona sobre lo siguiente:
   <ul>
     <li>¿Dónde notaste facilidad o ventaja?</li>
     <li>¿Dónde experimentaste fricción, esfuerzo adicional o vulnerabilidad?</li>
-    <li>¿En qué ámbitos tienes privilegio y en cuáles no?</li>
+    <li>¿En qué ámbitos consideras que tienes privilegios y en cuáles no?</li>
     <li>¿Cómo cambiaría tu experiencia en otro país, equipo o contexto?</li>
     <li>¿Cómo puedes utilizar tus privilegios para crear más espacio, acceso o apoyo para otras personas?</li>'
   statements:
-    1: "1. Normalmente soy invitado/a o puedo participar en reuniones donde se toman decisiones importantes."
-    2: "2. La mayor parte de la comunicación interna en mi unidad se realiza en mi lengua materna."
-    3: "3. Rara vez necesito ajustar mi horario de trabajo debido a diferencias de zona horaria."
-    4: "4. Me siento cómodo/a al expresar mi opinión en grupos grandes."
-    5: "5. Veo personas como yo bien representadas en puestos de liderazgo."
-    6: "6. Puedo cuestionar a un colega senior sin preocuparme por consecuencias negativas."
-    7: "7. Tengo conexiones informales que me ayudan a avanzar en la organización."
-    8: "8. No me preocupa que mi comportamiento refuerce estereotipos sobre mi origen."
-    9: "9. Puedo asumir que las políticas, prácticas y espacios físicos de la empresa fueron diseñados pensando en personas como yo."
-    10: "10. Puedo viajar por trabajo sin preocuparme por cómo seré tratado/a en el destino."
-    11: "11. Puedo moverme en mi vida diaria sin sentirme como un extraño/a debido a mi origen."
-    12: "12. Puedo compartir mi identidad abiertamente sin preocuparme por mi seguridad o aceptación."
-    13: "13. Puedo asumir que las leyes de mi país protegen mis derechos y libertades fundamentales."
-    14: "14. Los acontecimientos mundiales rara vez me hacen cuestionar mi estabilidad a largo plazo o mi sentido de pertenencia."
-    15: "15. Cuando expreso mi opinión, normalmente se toma en serio."
-    16: "16. Veo muchas personas como yo en la oficina."
+    1: 1. Normalmente soy invitado/a o puedo participar en reuniones en las que se toman decisiones importantes.
+    2: 2. La mayor parte de la comunicación interna en mi unidad se realiza en mi lengua materna.
+    3: 3. Rara vez es necesario ajustar mi horario de trabajo debido a las diferencias de zona horaria.
+    4: 4. Me siento cómodo/a al expresar mi opinión en grupos grandes.
+    5: 5. Veo personas como yo bien representadas en puestos jerárquicos.
+    6: 6. Me siento seguro al cuestionar a un superior sin temor a que haya consecuencias negativas.
+    7: 7. Puedo recurrir a vínculos informales que me apoyan en el cumplimiento de mis responsabilidades.
+    8: 8. No me preocupa que mi comportamiento refuerce estereotipos sobre mi origen.
+    9: 9. Puedo asumir que las políticas, prácticas y espacios físicos de la empresa fueron diseñados teniendo en cuenta a personas como yo.
+    10: 10. Puedo viajar por trabajo sin preocuparme por cómo seré tratado/a en el destino.
+    11: 11. Puedo moverme en mi vida cotidiana sin experimentar una sensación de exclusión por mi contexto de origen.
+    12: 12. Puedo compartir mi identidad abiertamente sin preocuparme por mi seguridad o aceptación.
+    13: 13. Puedo asumir que las leyes de mi país protegen mis derechos y libertades fundamentales.
+    14: 14. Los acontecimientos mundiales rara vez me hacen cuestionar mi estabilidad a largo plazo o mi sentido de pertenencia.
+    15: 15. Cuando expreso mi opinión, normalmente se toma con seriedad.
 
 

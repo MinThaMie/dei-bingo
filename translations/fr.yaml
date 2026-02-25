@@ -290,6 +290,7 @@ walk:
   intro: "Un exercice pour réfléchir à la manière dont l'identité, l'accès et le contexte façonnent votre expérience au travail et au-delà.<br /><br />Parcourez les affirmations à votre rythme et décidez si elles s'appliquent à vous. Soyez attentif aux situations où vous ressentez de la facilité ou un avantage, ainsi qu'à celles où vous devez fournir un effort supplémentaire."
   applies: "S'applique à moi"
   no-apply: "Ne s'applique pas à moi"
+  score: "Privilege score"
   reflection-text: "Lorsque vous avez terminé les affirmations, réfléchissez aux points suivants :
   <ul>
     <li>Où avez-vous ressenti de la facilité ou un avantage ?</li>

@@ -291,23 +291,24 @@ walk:
   intro: 'Een oefening om te reflecteren op hoe identiteit, toegang en context jouw ervaring op het werk en daarbuiten beïnvloeden.<br /><br />Doorloop de stellingen in je eigen tempo en beslis of ze op jou van toepassing zijn. Let op waar je gemak of voordeel ervaart, en waar je juist extra inspanning of belemmering voelt.'
   applies: 'Van toepassing op mij'
   no-apply: 'Niet van toepassing op mij'
+  score: "Privilege score"
   reflection-text: 'Wanneer je alle stellingen hebt doorlopen, reflecteer dan op het volgende:
   <ul>
     <li>Waar merkte je gemak of voordeel?</li>
     <li>Waar merkte je wrijving, extra inspanning of kwetsbaarheid?</li>
-    <li>Op welke vlakken heb jij privilege, en op welke niet?</li>
+    <li>Op welke vlakken heb jij privileges, en op welke niet?</li>
     <li>Hoe zou jouw ervaring veranderen in een ander land, team of context?</li>
-    <li>Hoe kun je de gebieden waarin jij privilege hebt inzetten om ruimte, toegang of steun voor anderen te creëren?</li>'
+    <li>Hoe kun je de gebieden waarin jij privileges hebt inzetten om ruimte, toegang of steun voor anderen te creëren?</li>'
   statements:
     1: "1. Ik word meestal uitgenodigd voor of kan deelnemen aan vergaderingen waar belangrijke beslissingen worden genomen."
     2: "2. De meeste interne communicatie binnen mijn business unit vindt plaats in mijn moedertaal."
-    3: "3. Ik hoef mijn werktijden zelden aan te passen vanwege tijdsverschillen."
+    3: "3. Ik hoef mijn werktijden zelden aan te passen vanwege verschil in tijdzones."
     4: "4. Ik voel me comfortabel om mijn mening te uiten in grote groepen."
     5: "5. Ik zie mensen zoals ik goed vertegenwoordigd in leidinggevende posities."
     6: "6. Ik kan een senior collega uitdagen zonder me zorgen te maken over negatieve gevolgen."
     7: "7. Ik heb informele connecties die mij helpen om dingen gedaan te krijgen binnen de organisatie."
     8: "8. Ik maak me geen zorgen dat mijn gedrag stereotypen over mijn achtergrond zal bevestigen."
-    9: "9. Ik kan ervan uitgaan dat bedrijfsbeleid, -praktijken en de fysieke werkomgeving zijn ontworpen met iemand zoals ik in gedachten."
+    9: "9. Ik kan ervan uitgaan dat bedrijfsbeleid, processen en de fysieke werkomgeving zijn ontworpen met iemand zoals ik in gedachten."
     10: "10. Ik kan voor werk reizen zonder me zorgen te maken over hoe ik op de bestemming behandeld zal worden."
     11: "11. Ik kan door het dagelijks leven bewegen zonder me een buitenstaander te voelen vanwege mijn achtergrond."
     12: "12. Ik kan mijn identiteit openlijk delen zonder me zorgen te maken over veiligheid of acceptatie."
